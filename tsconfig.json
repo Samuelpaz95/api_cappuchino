@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"module": "CommonJS",
+		"moduleResolution": "Node",
+		"outDir": "./dist",
+		"rootDir": "./src",
+		"removeComments": true,
+		"strict": true,
+		"target": "es6",
+		"sourceMap": true,
+		"forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true
+	},
+	"exclude": ["node_modules", "mock"]
+}
