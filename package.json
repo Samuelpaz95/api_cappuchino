@@ -5,7 +5,7 @@
 	"main": "dist/index.js",
 	"scripts": {
 		"build": "rimraf dist && tsc",
-		"serve": "nodemon src/index.ts",
+		"dev": "nodemon",
 		"start": "node dist/index.js"
 	},
 	"keywords": [],
