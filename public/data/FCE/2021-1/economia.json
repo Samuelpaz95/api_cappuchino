@@ -1,0 +1,4790 @@
+{
+	"levels": [
+		{
+			"code": "A",
+			"subjects": [
+				{
+					"code": "1304001",
+					"name": "ECONOMIA GENERAL",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E530",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								},
+								{
+									"day": "MI",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E007",
+									"teacher": "AVILES ROCHA MARTHA ELIZABETH",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E530",
+									"teacher": "AVILES ROCHA MARTHA ELIZABETH",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "02",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E530",
+									"teacher": "UBERHUAGA CANDIA PATRICIA DEL CARMEN",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "UBERHUAGA CANDIA PATRICIA DEL CARMEN",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E528",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "SANCHEZ CASTELLON JUAN FELIX",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "SANCHEZ CASTELLON JUAN FELIX",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304002",
+					"name": "TALLER DE LENGUAJE Y REDACCION",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E 104",
+									"teacher": "RIVERA MIRANDA RENE",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "RIVERA MIRANDA RENE",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "02",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E 101",
+									"teacher": "SEVILLA CESPEDES CLAUDIA",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "SEVILLA CESPEDES CLAUDIA",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "TRIGO ROCHA RUTH MERY",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "TRIGO ROCHA RUTH MERY",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304003",
+					"name": "ALGEBRA",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E530",
+									"teacher": "JALDIN QUIROZ RENE",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E530",
+									"teacher": "JALDIN QUIROZ RENE",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						},
+						{
+							"code": "02",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E 303",
+									"teacher": "MONTANO MONTANO JOSE",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E 303",
+									"teacher": "MONTANO MONTANO JOSE",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E501",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						},
+						{
+							"code": "03",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E 102",
+									"teacher": "MOYA ALBARRACIN MARTIN",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E501",
+									"teacher": "MOYA ALBARRACIN MARTIN",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "E530",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E546",
+									"teacher": "IRIARTE MERCADO EDGAR ALBERTO",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "IRIARTE MERCADO EDGAR ALBERTO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E 103",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304004",
+					"name": "CALCULO",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E530",
+									"teacher": "QUIROZ CLAURE COSME",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E530",
+									"teacher": "QUIROZ CLAURE COSME",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E530",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						},
+						{
+							"code": "02",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E501",
+									"teacher": "DIAZ MONZON EDMUNDO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E501",
+									"teacher": "DIAZ MONZON EDMUNDO",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E 101",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						},
+						{
+							"code": "03",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E 201",
+									"teacher": "COVARRUBIAS VARGAS CAUJMAN",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E524",
+									"teacher": "COVARRUBIAS VARGAS CAUJMAN",
+									"isClass": true
+								},
+								{
+									"day": "SA",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E546",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								},
+								{
+									"day": "MA",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E530",
+									"teacher": "CONDORI ARIAS HERMOGENES",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E530",
+									"teacher": "CONDORI ARIAS HERMOGENES",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304005",
+					"name": "SOCIOLOGIA ECONOMICA",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E 103",
+									"teacher": "ANTEZANA LA FUENTE JORGE CARLOS",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "ANTEZANA LA FUENTE JORGE CARLOS",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "02",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E501",
+									"teacher": "ANTEZANA LA FUENTE JORGE CARLOS",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E501",
+									"teacher": "ANTEZANA LA FUENTE JORGE CARLOS",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "AILLON GOMEZ TANIA LEDA",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "E 103",
+									"teacher": "AILLON GOMEZ TANIA LEDA",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304006",
+					"name": "HISTORIA ECONOMICA DE AMERICA LATINA",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "ANTEZANA ESCALERA RENE",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "ANTEZANA ESCALERA RENE",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "02",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E501",
+									"teacher": "ORELLANA AYLLON LORGIO EVERTH",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E501",
+									"teacher": "ORELLANA AYLLON LORGIO EVERTH",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E 101",
+									"teacher": "ANTEZANA ESCALERA RENE",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E 110",
+									"teacher": "ANTEZANA ESCALERA RENE",
+									"isClass": true
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "B",
+			"subjects": [
+				{
+					"code": "1304007",
+					"name": "MICROECONOMIA I",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "MI",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "CABERO CALATAYUD CARLOS F.",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "CABERO CALATAYUD CARLOS F.",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "14:15",
+									"end": "15:45",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						},
+						{
+							"code": "02",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "MERCADO SORIA JESUS BERNARDO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "MERCADO SORIA JESUS BERNARDO",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E 103",
+									"teacher": "ARAUJO COSSIO ALDO ROMEL",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E 105",
+									"teacher": "ARAUJO COSSIO ALDO ROMEL",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E 102",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						},
+						{
+							"code": "22",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E 102",
+									"teacher": "IRIGOYEN HINOJOSA IGOR",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E 103",
+									"teacher": "IRIGOYEN HINOJOSA IGOR",
+									"isClass": true
+								},
+								{
+									"day": "LU",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E 103",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304012",
+					"name": "HISTORIA ECONOMICA DE BOLIVIA",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "ANTEZANA ESCALERA RENE",
+									"isClass": true
+								},
+								{
+									"day": "SA",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "ANTEZANA ESCALERA RENE",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MI",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "ORELLANA AYLLON LORGIO EVERTH",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "ORELLANA AYLLON LORGIO EVERTH",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304017",
+					"name": "ADMINISTRACION",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E 101",
+									"teacher": "PANTOJA ROCHA YURI NEWTON",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E 103",
+									"teacher": "PANTOJA ROCHA YURI NEWTON",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "02",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E 103",
+									"teacher": "VILLARROEL DAZA MARIA HELEN",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E 103",
+									"teacher": "VILLARROEL DAZA MARIA HELEN",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304018",
+					"name": "CONTABILIDAD BASICA",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "LEDEZMA SANDOVAL FEDERICO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "LEDEZMA SANDOVAL FEDERICO",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						},
+						{
+							"code": "02",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "LEDEZMA SANDOVAL FEDERICO",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "LEDEZMA SANDOVAL FEDERICO",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								},
+								{
+									"day": "MA",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "PEREZ AMADOR MARIO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "PEREZ AMADOR MARIO",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304157",
+					"name": "ALGEBRA APLICADA",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E 109",
+									"teacher": "TABORGA ACHA FIDEL",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E503",
+									"teacher": "TABORGA ACHA FIDEL",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						},
+						{
+							"code": "02",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								},
+								{
+									"day": "JU",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "MOYA ALBARRACIN MARTIN",
+									"isClass": true
+								},
+								{
+									"day": "SA",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "MOYA ALBARRACIN MARTIN",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "MOYA ALBARRACIN MARTIN",
+									"isClass": true
+								},
+								{
+									"day": "SA",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "MOYA ALBARRACIN MARTIN",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E 104",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304158",
+					"name": "CALCULO APLICADO",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								},
+								{
+									"day": "MA",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "MONTAÑO ROMERO JOSE",
+									"isClass": true
+								},
+								{
+									"day": "SA",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "MONTAÑO ROMERO JOSE",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "02",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "MONTAÑO ROMERO JOSE",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "MONTAÑO ROMERO JOSE",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MI",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "CONDORI ARIAS HERMOGENES",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "CONDORI ARIAS HERMOGENES",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "C",
+			"subjects": [
+				{
+					"code": "1304008",
+					"name": "MACROECONOMIA I",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "IRIGOYEN HINOJOSA IGOR",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "IRIGOYEN HINOJOSA IGOR",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						},
+						{
+							"code": "02",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "E 103",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								},
+								{
+									"day": "MA",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "E 103",
+									"teacher": "AZOGUE CRESPO RICARDO",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "AZOGUE CRESPO RICARDO",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E 103",
+									"teacher": "AZOGUE CRESPO RICARDO",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E 103",
+									"teacher": "AZOGUE CRESPO RICARDO",
+									"isClass": true
+								},
+								{
+									"day": "SA",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E547",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304013",
+					"name": "MICROECONOMIA II",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E 102",
+									"teacher": "CABERO CALATAYUD CARLOS F.",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E 102",
+									"teacher": "CABERO CALATAYUD CARLOS F.",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "E530",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "ZUBIETA FLORIDO FREDDY",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "ZUBIETA FLORIDO FREDDY",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E 102",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304016",
+					"name": "ESTADISTICA I",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								},
+								{
+									"day": "MA",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E 101",
+									"teacher": "ALBA PINTO CRECENCIO",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E 101",
+									"teacher": "ALBA PINTO CRECENCIO",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "JU",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E 101",
+									"teacher": "ALVAREZ QUIROZ RICHARD MILTON",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "ALVAREZ QUIROZ RICHARD MILTON",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E 102",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304021",
+					"name": "ECONOMIA FINANCIERA I",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "MI",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E 102",
+									"teacher": "CLAURE FUENTES SHIRLEY CONSUELO",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E 102",
+									"teacher": "CLAURE FUENTES SHIRLEY CONSUELO",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E 102",
+									"teacher": "CUBA ROJAS PABLO LUIS",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E 102",
+									"teacher": "CUBA ROJAS PABLO LUIS",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304024",
+					"name": "CONTABILIDAD DE GESTION",
+					"groups": [
+						{
+							"code": "02",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E 101",
+									"teacher": "MARTINEZ ALPIRI ANAHI MONICA",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E 101",
+									"teacher": "MARTINEZ ALPIRI ANAHI MONICA",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E 104",
+									"teacher": "MARTINEZ ALPIRI ANAHI MONICA",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MI",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E 406",
+									"teacher": "GUEVARA ESPINOZA JORGE",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E 406",
+									"teacher": "GUEVARA ESPINOZA JORGE",
+									"isClass": true
+								},
+								{
+									"day": "SA",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E 406",
+									"teacher": "GUEVARA ESPINOZA JORGE",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1803021",
+					"name": "INGLES I",
+					"groups": [
+						{
+							"code": "05",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E 102",
+									"teacher": "ROSALES VASQUEZ DENISE MARIEL",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E 102",
+									"teacher": "ROSALES VASQUEZ DENISE MARIEL",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E 102",
+									"teacher": "ROSALES VASQUEZ DENISE MARIEL",
+									"isClass": true
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "D",
+			"subjects": [
+				{
+					"code": "1302080",
+					"name": "GESTION DE RIESGOS",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E508",
+									"teacher": "VALDEZ ESCOBAR JORGE",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E510",
+									"teacher": "VALDEZ ESCOBAR JORGE",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E507",
+									"teacher": "ALIENDRE LAFUENTE ROMER SIMON",
+									"isClass": true
+								},
+								{
+									"day": "SA",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E512",
+									"teacher": "ALIENDRE LAFUENTE ROMER SIMON",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304014",
+					"name": "MACROECONOMIA II",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								},
+								{
+									"day": "MI",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E 103",
+									"teacher": "SUCRE REYES MARIA ANTONIETA",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E 102",
+									"teacher": "SUCRE REYES MARIA ANTONIETA",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "20:15",
+									"end": "21:45",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "IRIGOYEN HINOJOSA IGOR",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "20:15",
+									"end": "21:45",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "IRIGOYEN HINOJOSA IGOR",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304019",
+					"name": "TEORIA FISCAL",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E523",
+									"teacher": "LEDEZMA RIVERA JHONNY LIMBERT",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E522",
+									"teacher": "LEDEZMA RIVERA JHONNY LIMBERT",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "JU",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E524",
+									"teacher": "ASCARRAGA SEJAS WILMAR HENRY",
+									"isClass": true
+								},
+								{
+									"day": "SA",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E524",
+									"teacher": "ASCARRAGA SEJAS WILMAR HENRY",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304022",
+					"name": "ECONOMIA POLITICA I",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "AZOGUE CRESPO RICARDO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "AZOGUE CRESPO RICARDO",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "AZOGUE CRESPO RICARDO",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E 104",
+									"teacher": "POR DESIGNAR",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E 103",
+									"teacher": "POR DESIGNAR",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E 104",
+									"teacher": "POR DESIGNAR",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304023",
+					"name": "ESTADISTICA II",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E528",
+									"teacher": "POR DESIGNAR",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E528",
+									"teacher": "POR DESIGNAR",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						},
+						{
+							"code": "22",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "APAZA COLQUE FELIX JUAN",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "APAZA COLQUE FELIX JUAN",
+									"isClass": true
+								},
+								{
+									"day": "SA",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304027",
+					"name": "ECONOMIA FINANCIERA II",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E547",
+									"teacher": "CUBA ROJAS PABLO LUIS",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E 103",
+									"teacher": "CUBA ROJAS PABLO LUIS",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E 103",
+									"teacher": "CUBA ROJAS PABLO LUIS",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "20:15",
+									"end": "21:45",
+									"duration": 2,
+									"room": "E 101",
+									"teacher": "POR DESIGNAR",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E 101",
+									"teacher": "POR DESIGNAR",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E 101",
+									"teacher": "POR DESIGNAR",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304160",
+					"name": "ECONOMIA INDUSTRIAL",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "MI",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E 308",
+									"teacher": "ALVAREZ QUIROZ RICHARD MILTON",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E 303",
+									"teacher": "ALVAREZ QUIROZ RICHARD MILTON",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1803024",
+					"name": "INGLES II",
+					"groups": [
+						{
+							"code": "05",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "CLAURE RICHARD PATRICIA ANGELICA",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E 104",
+									"teacher": "CLAURE RICHARD PATRICIA ANGELICA",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "CLAURE RICHARD PATRICIA ANGELICA",
+									"isClass": true
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "E",
+			"subjects": [
+				{
+					"code": "1301031",
+					"name": "MERCADOTECNIA I",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "E 109",
+									"teacher": "CALLA VILLEGAS EDWIN",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "E 109",
+									"teacher": "CALLA VILLEGAS EDWIN",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "E 201",
+									"teacher": "CALLA VILLEGAS EDWIN",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "20",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "20:15",
+									"end": "21:45",
+									"duration": 2,
+									"room": "E 205",
+									"teacher": "ZEGARRA SALDANA PABLO",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E 205",
+									"teacher": "ZEGARRA SALDANA PABLO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E 205",
+									"teacher": "ZEGARRA SALDANA PABLO",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "20:15",
+									"end": "21:45",
+									"duration": 2,
+									"room": "E PB-4",
+									"teacher": "NAVIA QUIROGA GUSTAVO",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E502",
+									"teacher": "NAVIA QUIROGA GUSTAVO",
+									"isClass": true
+								},
+								{
+									"day": "SA",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E503",
+									"teacher": "NAVIA QUIROGA GUSTAVO",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304011",
+					"name": "ECONOMIA DE LOS RR.NN. Y M.A.",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "MANZANO ANZALDO NELSON TITO",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "MANZANO ANZALDO NELSON TITO",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "E530",
+									"teacher": "UBERHUAGA CANDIA PATRICIA DEL CARMEN",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "E530",
+									"teacher": "UBERHUAGA CANDIA PATRICIA DEL CARMEN",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304015",
+					"name": "HISTORIA DEL PENSAMIENTO ECONOMICO",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "JIMENEZ VALDIVIA WALDO FERNANDO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "JIMENEZ VALDIVIA WALDO FERNANDO",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MI",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "JIMENEZ VALDIVIA WALDO FERNANDO",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "JIMENEZ VALDIVIA WALDO FERNANDO",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304020",
+					"name": "TEORIA MONETARIA",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "ROMERO PADILLA CESAR",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "ROMERO PADILLA CESAR",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "ROMERO PADILLA CESAR",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304025",
+					"name": "EPISTEMOLOGIA DE LA ECONOMIA",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "MI",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E 101",
+									"teacher": "AZOGUE CRESPO RICARDO",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "AZOGUE CRESPO RICARDO",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "RODRIGUEZ ROCA MARIA HILDA",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "RODRIGUEZ ROCA MARIA HILDA",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304028",
+					"name": "ECONOMIA POLITICA II",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "GUTIERREZ ROJAS RAUL ENRIQUE",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "GUTIERREZ ROJAS RAUL ENRIQUE",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "GUTIERREZ ROJAS RAUL ENRIQUE",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "GUTIERREZ ROJAS RAUL ENRIQUE",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E 104",
+									"teacher": "GUTIERREZ ROJAS RAUL ENRIQUE",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "GUTIERREZ ROJAS RAUL ENRIQUE",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304030",
+					"name": "ECONOMETRIA I",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E547",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								},
+								{
+									"day": "MI",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E547",
+									"teacher": "DELGADILLO DORADO HERNAN",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E547",
+									"teacher": "DELGADILLO DORADO HERNAN",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "02",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E547",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								},
+								{
+									"day": "MA",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E547",
+									"teacher": "SARAVIA LOPEZ VICKY ALEJANDRA",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E547",
+									"teacher": "SARAVIA LOPEZ VICKY ALEJANDRA",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304063",
+					"name": "MUESTREO",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E547",
+									"teacher": "DELGADILLO DORADO HERNAN",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E547",
+									"teacher": "DELGADILLO DORADO HERNAN",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E547",
+									"teacher": "DELGADILLO DORADO HERNAN",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304129",
+					"name": "DEMOGRAFIA",
+					"groups": [
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "LEDO GARCIA CARMEN",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "LEDO GARCIA CARMEN",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "LEDO GARCIA CARMEN",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304132",
+					"name": "ESTADISTICA APLICADA",
+					"groups": [
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E547",
+									"teacher": "GONZALES FERNANDEZ FERNANDO",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E547",
+									"teacher": "GONZALES FERNANDEZ FERNANDO",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E547",
+									"teacher": "GONZALES FERNANDEZ FERNANDO",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304134",
+					"name": "FINANZAS DE EMPRESAS",
+					"groups": [
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "LEDEZMA SANDOVAL FEDERICO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E501",
+									"teacher": "LEDEZMA SANDOVAL FEDERICO",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E 102",
+									"teacher": "LEDEZMA SANDOVAL FEDERICO",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304139",
+					"name": "PRESUPUESTOS EMPRESARIALES",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "VARGAS OROSCO FREDDY",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "VARGAS OROSCO FREDDY",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E501",
+									"teacher": "MARTINEZ ALPIRI ANAHI MONICA",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E501",
+									"teacher": "MARTINEZ ALPIRI ANAHI MONICA",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304140",
+					"name": "PROGRAMAS ESTADISTICOS",
+					"groups": [
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E528",
+									"teacher": "SEMPERTEGUI ZEBALLOS SANDRA MA",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "E528",
+									"teacher": "SEMPERTEGUI ZEBALLOS SANDRA MA",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E528",
+									"teacher": "SEMPERTEGUI ZEBALLOS SANDRA MA",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304144",
+					"name": "TRIBUTACION",
+					"groups": [
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "TORREZ AGUILAR JOSE",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "TORREZ AGUILAR JOSE",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304155",
+					"name": "GESTION DE RECURSOS HUMANOS",
+					"groups": [
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "RAMIREZ MOLINA GONZALO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "RAMIREZ MOLINA GONZALO",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304210",
+					"name": "INVESTIGACION OPERATIVA",
+					"groups": [
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "ALIENDRE LAFUENTE ROMER SIMON",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E501",
+									"teacher": "ALIENDRE LAFUENTE ROMER SIMON",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "ALIENDRE LAFUENTE ROMER SIMON",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1803027",
+					"name": "INGLES III",
+					"groups": [
+						{
+							"code": "05",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E 105",
+									"teacher": "PEETERS ILONAA MAGDA LENA",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E 305",
+									"teacher": "PEETERS ILONAA MAGDA LENA",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E 101",
+									"teacher": "PEETERS ILONAA MAGDA LENA",
+									"isClass": true
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "F",
+			"subjects": [
+				{
+					"code": "1304026",
+					"name": "POLITICAS MACROECONOMICAS",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "E 103",
+									"teacher": "ESCALERA MELGAR ALBERTO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "E 103",
+									"teacher": "ESCALERA MELGAR ALBERTO",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "E 103",
+									"teacher": "ESCALERA MELGAR ALBERTO",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "ECO7",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E530",
+									"teacher": "ZEGADA CLAURE OSCAR",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "ZEGADA CLAURE OSCAR",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "ZEGADA CLAURE OSCAR",
+									"isClass": true
+								},
+								{
+									"day": "SA",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304033",
+					"name": "TEORIAS ECONOMICAS ACTUALES",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "SUCRE REYES MARIA ANTONIETA",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "SUCRE REYES MARIA ANTONIETA",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "SARAVIA LOPEZ VICKY ALEJANDRA",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "SARAVIA LOPEZ VICKY ALEJANDRA",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304034",
+					"name": "FORMULACION DE PROYECTOS",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E546",
+									"teacher": "GARAY ANAYA GONZALO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E 208",
+									"teacher": "GARAY ANAYA GONZALO",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E 207",
+									"teacher": "GARAY ANAYA GONZALO",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E528",
+									"teacher": "BALDERRAMA MAMANI JOSE ANTONIO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E528",
+									"teacher": "BALDERRAMA MAMANI JOSE ANTONIO",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E528",
+									"teacher": "BALDERRAMA MAMANI JOSE ANTONIO",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304035",
+					"name": "TEORIA DE LAS INSTITUCIONES ECONOMICAS",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "JU",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E 101",
+									"teacher": "VILLAZON DEL CARPIO OSMAN ERICK",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E 302",
+									"teacher": "VILLAZON DEL CARPIO OSMAN ERICK",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "20:15",
+									"end": "21:45",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "ZEGADA CLAURE OSCAR",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E530",
+									"teacher": "ZEGADA CLAURE OSCAR",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304036",
+					"name": "ECONOMETRIA II",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E528",
+									"teacher": "DELGADILLO DORADO HERNAN",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E528",
+									"teacher": "DELGADILLO DORADO HERNAN",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E528",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E528",
+									"teacher": "CAMACHO VILLARROEL MIRIAM DEL ROSARIO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E547",
+									"teacher": "CAMACHO VILLARROEL MIRIAM DEL ROSARIO",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "E528",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304131",
+					"name": "ECONOMIA AGRARIA",
+					"groups": [
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "GUTIERREZ ROJAS RAUL ENRIQUE",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E530",
+									"teacher": "GUTIERREZ ROJAS RAUL ENRIQUE",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304141",
+					"name": "PROYECTOS SOCIALES",
+					"groups": [
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E 103",
+									"teacher": "POR DESIGNAR",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E 101",
+									"teacher": "POR DESIGNAR",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E 104",
+									"teacher": "POR DESIGNAR",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304159",
+					"name": "SEMINARIO COMERCIAL",
+					"groups": [
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E528",
+									"teacher": "SARAVIA LOPEZ VICKY ALEJANDRA",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "SARAVIA LOPEZ VICKY ALEJANDRA",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304162",
+					"name": "GESTION DE PROYECTOS SOCIALES",
+					"groups": [
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E528",
+									"teacher": "HOFFMANN BARRIENTOS KARL",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E528",
+									"teacher": "HOFFMANN BARRIENTOS KARL",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E528",
+									"teacher": "HOFFMANN BARRIENTOS KARL",
+									"isClass": true
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "G",
+			"subjects": [
+				{
+					"code": "1301034",
+					"name": "MERCADOTECNIA II",
+					"groups": [
+						{
+							"code": "02",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E502",
+									"teacher": "NAVIA QUIROGA GUSTAVO",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E504",
+									"teacher": "NAVIA QUIROGA GUSTAVO",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E502",
+									"teacher": "NAVIA QUIROGA GUSTAVO",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "20",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E 209",
+									"teacher": "AYMA SOTO FELIX MARCELO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E 109",
+									"teacher": "AYMA SOTO FELIX MARCELO",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E 106",
+									"teacher": "AYMA SOTO FELIX MARCELO",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304032",
+					"name": "DESARROLLO ECONOMICO I",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "14:15",
+									"end": "15:45",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "MONTANO QUIROGA CLAUDIA CAROLA",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "14:15",
+									"end": "15:45",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "MONTANO QUIROGA CLAUDIA CAROLA",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "14:15",
+									"end": "15:45",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "MONTANO QUIROGA CLAUDIA CAROLA",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MI",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "LEDEZMA RIVERA JHONNY LIMBERT",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "E528",
+									"teacher": "LEDEZMA RIVERA JHONNY LIMBERT",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "LEDEZMA RIVERA JHONNY LIMBERT",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304038",
+					"name": "ECONOMIA INTERNACIONAL I",
+					"groups": [
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E 406",
+									"teacher": "IRIARTE DE LA FUENTE MARCELA",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E547",
+									"teacher": "IRIARTE DE LA FUENTE MARCELA",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E 406",
+									"teacher": "IRIARTE DE LA FUENTE MARCELA",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304039",
+					"name": "POLITICA ECONOMICA",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E 303",
+									"teacher": "ZEGADA CLAURE OSCAR",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "ZEGADA CLAURE OSCAR",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E 303",
+									"teacher": "ZEGADA CLAURE OSCAR",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "ZEGADA CLAURE OSCAR",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E 105",
+									"teacher": "ZEGADA CLAURE OSCAR",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E 105",
+									"teacher": "ZEGADA CLAURE OSCAR",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304040",
+					"name": "EVALUACION DE PROYECTOS",
+					"groups": [
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "PEREZ PEREZ JORGE MARTIN",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E 103",
+									"teacher": "PEREZ PEREZ JORGE MARTIN",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "PEREZ PEREZ JORGE MARTIN",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304113",
+					"name": "CONTABILIDAD NACIONAL E INSUMO-PRODUCTO",
+					"groups": [
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "DECKER MARQUEZ JOSE",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E 107",
+									"teacher": "DECKER MARQUEZ JOSE",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304133",
+					"name": "ESTRATEGIA EMPRESARIAL",
+					"groups": [
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "20:15",
+									"end": "21:45",
+									"duration": 2,
+									"room": "E 103",
+									"teacher": "GUZMAN SANJINES GONZALO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "20:15",
+									"end": "21:45",
+									"duration": 2,
+									"room": "E 101",
+									"teacher": "GUZMAN SANJINES GONZALO",
+									"isClass": true
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "H",
+			"subjects": [
+				{
+					"code": "1302004",
+					"name": "DERECHO COMERCIAL",
+					"groups": [
+						{
+							"code": "04",
+							"schedule": [
+								{
+									"day": "JU",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E507",
+									"teacher": "QUIROZ GOMEZ CARMEN RITA",
+									"isClass": true
+								},
+								{
+									"day": "SA",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E542",
+									"teacher": "QUIROZ GOMEZ CARMEN RITA",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "23",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "20:15",
+									"end": "21:45",
+									"duration": 2,
+									"room": "E542",
+									"teacher": "QUINTANILLA CALVIMONTES GONZALO",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "20:15",
+									"end": "21:45",
+									"duration": 2,
+									"room": "E510",
+									"teacher": "QUINTANILLA CALVIMONTES GONZALO",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1302006",
+					"name": "CONTABILIDAD II",
+					"groups": [
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E 303",
+									"teacher": "BALDERRAMA MAMANI JOSE ANTONIO",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E 301",
+									"teacher": "BALDERRAMA MAMANI JOSE ANTONIO",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E513",
+									"teacher": "BALDERRAMA MAMANI JOSE ANTONIO",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "E507",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						},
+						{
+							"code": "22",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E543",
+									"teacher": "SAAVEDRA GOMEZ MILENA ELIZABETH",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E518",
+									"teacher": "SAAVEDRA GOMEZ MILENA ELIZABETH",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E506",
+									"teacher": "SAAVEDRA GOMEZ MILENA ELIZABETH",
+									"isClass": true
+								},
+								{
+									"day": "SA",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E512",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						},
+						{
+							"code": "23",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E513",
+									"teacher": "TORRICO SANCHEZ FELIPE ROBERTO",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E517",
+									"teacher": "TORRICO SANCHEZ FELIPE ROBERTO",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "20:15",
+									"end": "21:45",
+									"duration": 2,
+									"room": "E542",
+									"teacher": "TORRICO SANCHEZ FELIPE ROBERTO",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "E514",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304041",
+					"name": "SEMINARIO DE INVESTIGACION",
+					"groups": [
+						{
+							"code": "01",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "E 102",
+									"teacher": "MANZANO ANZALDO NELSON TITO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "E 102",
+									"teacher": "MANZANO ANZALDO NELSON TITO",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "02",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "CEPLAC",
+									"teacher": "LEDO GARCIA CARMEN",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "CEPLAC",
+									"teacher": "LEDO GARCIA CARMEN",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "03",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E528",
+									"teacher": "UBERHUAGA CANDIA PATRICIA DEL CARMEN",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E528",
+									"teacher": "UBERHUAGA CANDIA PATRICIA DEL CARMEN",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "04",
+							"schedule": [
+								{
+									"day": "MI",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "CUBA ROJAS PABLO LUIS",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "E528",
+									"teacher": "CUBA ROJAS PABLO LUIS",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "E 104",
+									"teacher": "AILLON GOMEZ TANIA LEDA",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "E 104",
+									"teacher": "AILLON GOMEZ TANIA LEDA",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "23",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "14:15",
+									"end": "15:45",
+									"duration": 2,
+									"room": "ECO5",
+									"teacher": "RODRIGUEZ ROCA MARIA HILDA",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "14:15",
+									"end": "15:45",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "RODRIGUEZ ROCA MARIA HILDA",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "24",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E529",
+									"teacher": "BLANCO BLACUTT VICTOR HUGO",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E528",
+									"teacher": "BLANCO BLACUTT VICTOR HUGO",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304045",
+					"name": "ECONOMIA INTERNACIONAL II",
+					"groups": [
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E526",
+									"teacher": "ALBA PINTO CRECENCIO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E527",
+									"teacher": "ALBA PINTO CRECENCIO",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304046",
+					"name": "ECONOMIA MUNDIAL CONTEMPORANEA",
+					"groups": [
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "VI",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E 105",
+									"teacher": "LEDEZMA RIVERA JHONNY LIMBERT",
+									"isClass": true
+								},
+								{
+									"day": "SA",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E 104",
+									"teacher": "LEDEZMA RIVERA JHONNY LIMBERT",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304065",
+					"name": "SISTEMAS ADMINISTRATIVOS",
+					"groups": [
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "20:15",
+									"end": "21:45",
+									"duration": 2,
+									"room": "E 102",
+									"teacher": "GUZMAN BROCKMANN FELIPE HANS WIGBERTO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "20:15",
+									"end": "21:45",
+									"duration": 2,
+									"room": "E 102",
+									"teacher": "GUZMAN BROCKMANN FELIPE HANS WIGBERTO",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "E501",
+									"teacher": "GUZMAN BROCKMANN FELIPE HANS WIGBERTO",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304135",
+					"name": "MERCADO DE CAPITALES",
+					"groups": [
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "SUCRE REYES MARIA ANTONIETA",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "SUCRE REYES MARIA ANTONIETA",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "E 103",
+									"teacher": "SUCRE REYES MARIA ANTONIETA",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304149",
+					"name": "DESARROLLO ECONOMICO II",
+					"groups": [
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E 105",
+									"teacher": "DECKER MARQUEZ JOSE",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E 107",
+									"teacher": "DECKER MARQUEZ JOSE",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304154",
+					"name": "SEMINARIO DE MENCION",
+					"groups": [
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "E 102",
+									"teacher": "HOFFMANN BARRIENTOS KARL",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "E 102",
+									"teacher": "HOFFMANN BARRIENTOS KARL",
+									"isClass": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"code": "1304156",
+					"name": "PLANIFICACION",
+					"groups": [
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E 101",
+									"teacher": "DECKER MARQUEZ JOSE",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "E 106",
+									"teacher": "DECKER MARQUEZ JOSE",
+									"isClass": true
+								},
+								{
+									"day": "SA",
+									"start": "06:45",
+									"end": "08:15",
+									"duration": 2,
+									"room": "E525",
+									"teacher": "DECKER MARQUEZ JOSE",
+									"isClass": true
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "I",
+			"subjects": [
+				{
+					"code": "1304048",
+					"name": "TALLER DE TITULACION",
+					"groups": [
+						{
+							"code": "03",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "ECO3",
+									"teacher": "SUCRE REYES MARIA ANTONIETA",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "ECO3",
+									"teacher": "SUCRE REYES MARIA ANTONIETA",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "05",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "ECO5",
+									"teacher": "RODRIGUEZ ROCA MARIA HILDA",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "ECO1",
+									"teacher": "RODRIGUEZ ROCA MARIA HILDA",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "06",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "ECO7",
+									"teacher": "HOFFMANN BARRIENTOS KARL",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "ECO7",
+									"teacher": "HOFFMANN BARRIENTOS KARL",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "09",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "ECO7",
+									"teacher": "POR DESIGNAR",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "ECO8",
+									"teacher": "POR DESIGNAR",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "10",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "ECO3",
+									"teacher": "UBERHUAGA CANDIA PATRICIA DEL CARMEN",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "ECO3",
+									"teacher": "UBERHUAGA CANDIA PATRICIA DEL CARMEN",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "11",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "ECO5",
+									"teacher": "GUTIERREZ ROJAS RAUL ENRIQUE",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "ECO5",
+									"teacher": "GUTIERREZ ROJAS RAUL ENRIQUE",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "12",
+							"schedule": [
+								{
+									"day": "VI",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "ECO6",
+									"teacher": "GUTIERREZ ROJAS RAUL ENRIQUE",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "ECO6",
+									"teacher": "GUTIERREZ ROJAS RAUL ENRIQUE",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "13",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "ECO1",
+									"teacher": "POR DESIGNAR",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "ECO1",
+									"teacher": "POR DESIGNAR",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "16",
+							"schedule": [
+								{
+									"day": "SA",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "ECO4",
+									"teacher": "POR DESIGNAR",
+									"isClass": true
+								},
+								{
+									"day": "SA",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "ECO4",
+									"teacher": "POR DESIGNAR",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "18",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "ECO6",
+									"teacher": "CUBA ROJAS PABLO LUIS",
+									"isClass": true
+								},
+								{
+									"day": "SA",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "ECO2",
+									"teacher": "CUBA ROJAS PABLO LUIS",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "21",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "ECO2",
+									"teacher": "UBERHUAGA CANDIA PATRICIA DEL CARMEN",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "ECO2",
+									"teacher": "UBERHUAGA CANDIA PATRICIA DEL CARMEN",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "24",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "ECO1",
+									"teacher": "LEDEZMA RIVERA JHONNY LIMBERT",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "ECO1",
+									"teacher": "LEDEZMA RIVERA JHONNY LIMBERT",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "26",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "20:15",
+									"end": "21:45",
+									"duration": 2,
+									"room": "ECO1",
+									"teacher": "POR DESIGNAR",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "20:15",
+									"end": "21:45",
+									"duration": 2,
+									"room": "ECO1",
+									"teacher": "POR DESIGNAR",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "27",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "ECO2",
+									"teacher": "ZEGADA CLAURE OSCAR",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "ECO2",
+									"teacher": "ZEGADA CLAURE OSCAR",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "30",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "ECO5",
+									"teacher": "ALBA PINTO CRECENCIO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "ECO5",
+									"teacher": "ALBA PINTO CRECENCIO",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "32",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "ECO2",
+									"teacher": "CUBA ROJAS PABLO LUIS",
+									"isClass": true
+								},
+								{
+									"day": "SA",
+									"start": "08:15",
+									"end": "09:45",
+									"duration": 2,
+									"room": "ECO8",
+									"teacher": "CUBA ROJAS PABLO LUIS",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "34",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "ECO5",
+									"teacher": "RODRIGUEZ ROCA MARIA HILDA",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "15:45",
+									"end": "17:15",
+									"duration": 2,
+									"room": "ECO3",
+									"teacher": "RODRIGUEZ ROCA MARIA HILDA",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "35",
+							"schedule": [
+								{
+									"day": "JU",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "ECO4",
+									"teacher": "LEDO GARCIA CARMEN",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "ECO4",
+									"teacher": "LEDO GARCIA CARMEN",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "36",
+							"schedule": [
+								{
+									"day": "MI",
+									"start": "17:15",
+									"end": "18:45",
+									"duration": 2,
+									"room": "ECO8",
+									"teacher": "MANZANO ANZALDO NELSON TITO",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "38",
+							"schedule": [
+								{
+									"day": "SA",
+									"start": "09:45",
+									"end": "11:15",
+									"duration": 2,
+									"room": "ECO3",
+									"teacher": "POR DESIGNAR",
+									"isClass": true
+								},
+								{
+									"day": "SA",
+									"start": "11:15",
+									"end": "12:45",
+									"duration": 2,
+									"room": "ECO3",
+									"teacher": "POR DESIGNAR",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "43",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "ECO8",
+									"teacher": "HOFFMANN BARRIENTOS KARL",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "12:45",
+									"end": "14:15",
+									"duration": 2,
+									"room": "ECO8",
+									"teacher": "HOFFMANN BARRIENTOS KARL",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "45",
+							"schedule": [
+								{
+									"day": "MI",
+									"start": "20:15",
+									"end": "21:45",
+									"duration": 2,
+									"room": "ECO6",
+									"teacher": "BLANCO BLACUTT VICTOR HUGO",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "20:15",
+									"end": "21:45",
+									"duration": 2,
+									"room": "ECO6",
+									"teacher": "BLANCO BLACUTT VICTOR HUGO",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "46",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "20:15",
+									"end": "21:45",
+									"duration": 2,
+									"room": "ECO6",
+									"teacher": "BLANCO BLACUTT VICTOR HUGO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "18:45",
+									"end": "20:15",
+									"duration": 2,
+									"room": "ECO6",
+									"teacher": "BLANCO BLACUTT VICTOR HUGO",
+									"isClass": true
+								}
+							]
+						},
+						{
+							"code": "47",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "20:15",
+									"end": "21:45",
+									"duration": 2,
+									"room": "ECO7",
+									"teacher": "POR DESIGNAR",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "20:15",
+									"end": "21:45",
+									"duration": 2,
+									"room": "ECO7",
+									"teacher": "POR DESIGNAR",
+									"isClass": true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
