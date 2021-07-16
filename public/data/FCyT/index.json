@@ -1,0 +1,110 @@
+[
+	{
+		"code": "399501",
+		"name": "LICENCIATURA EN BIOLOGIA",
+		"madeIn": "SCESI UMSS",
+		"semester": "2021-01"
+	},
+	{
+		"code": "760101",
+		"name": "LICENCIATURA EN DIDACTICA DE LA FISICA",
+		"madeIn": "SCESI UMSS",
+		"semester": "2021-01"
+	},
+	{
+		"code": "114071",
+		"name": "LICENCIATURA EN DIDACTICA MATEMATICA",
+		"madeIn": "SCESI UMSS",
+		"semester": "2021-01"
+	},
+	{
+		"code": "359201",
+		"name": "LICENCIATURA EN FISICA",
+		"madeIn": "SCESI UMSS",
+		"semester": "2021-01"
+	},
+	{
+		"code": "411702",
+		"name": "LICENCIATURA EN INGENIERIA DE SISTEMAS N",
+		"madeIn": "SCESI UMSS",
+		"semester": "2021-01"
+	},
+	{
+		"code": "419701",
+		"name": "LICENCIATURA EN INGENIERIA DE SISTEMAS",
+		"madeIn": "SCESI UMSS",
+		"semester": "2021-01"
+	},
+	{
+		"code": "320902",
+		"name": "LICENCIATURA EN INGENIERIA CIVIL (NUEVO)",
+		"madeIn": "SCESI UMSS",
+		"semester": "2021-01"
+	},
+	{
+		"code": "409701",
+		"name": "LICENCIATURA EN INGENIERIA DE ALIMENTOS",
+		"madeIn": "SCESI UMSS",
+		"semester": "2021-01"
+	},
+	{
+		"code": "299701",
+		"name": "LICENCIATURA EN INGENIERIA ELECTRICA",
+		"madeIn": "SCESI UMSS",
+		"semester": "2021-01"
+	},
+	{
+		"code": "650001",
+		"name": "LICENCIATURA EN INGENIERIA ELECTROMECANICA",
+		"madeIn": "SCESI UMSS",
+		"semester": "2021-01"
+	},
+	{
+		"code": "429701",
+		"name": "LICENCIATURA EN INGENIERIA ELECTRONICA",
+		"madeIn": "SCESI UMSS",
+		"semester": "2021-01"
+	},
+	{
+		"code": "309801",
+		"name": "LICENCIATURA EN INGENIERIA INDUSTRIAL",
+		"madeIn": "SCESI UMSS",
+		"semester": "2021-01"
+	},
+	{
+		"code": "134111",
+		"name": "LICENCIATURA EN INGENIERIA INFORMATICA",
+		"madeIn": "SCESI UMSS",
+		"semester": "2021-01"
+	},
+	{
+		"code": "439801",
+		"name": "LICENCIATURA EN INGENIERIA MATEMATICA",
+		"madeIn": "SCESI UMSS",
+		"semester": "2021-01"
+	},
+	{
+		"code": "319801",
+		"name": "LICENCIATURA EN INGENIERIA MECANICA",
+		"madeIn": "SCESI UMSS",
+		"semester": "2021-01"
+	},
+	{
+		"code": "339701",
+		"name": "LICENCIATURA EN INGENIERIA QUIMICA",
+		"madeIn": "SCESI UMSS",
+		"semester": "2021-01"
+	},
+	{
+		"code": "349701",
+		"name": "LICENCIATURA EN MATEMATICAS",
+		"madeIn": "SCESI UMSS",
+		"semester": "2021-01"
+	},
+	{
+		"code": "389701",
+		"name": "LICENCIATURA EN QUIMICA",
+		"madeIn": "SCESI UMSS",
+		"semester": "2021-01"
+	}
+]

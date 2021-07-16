@@ -1,0 +1,636 @@
+{
+	"name": "LICENCIATURA EN DIDACTICA MATEMATICA",
+	"levels": [
+		{
+			"code": "A",
+			"subjects": [
+				{
+					"code": "2002004",
+					"name": "BIOLOGIA GENERAL",
+					"groups": [
+						{
+							"code": "1",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "1200",
+									"end": "1415",
+									"duration": 3,
+									"room": "608A",
+									"teacher": "FERNANDEZ TERRAZAS ERIKA",
+									"isClass": false
+								},
+								{
+									"day": "MI",
+									"start": "1415",
+									"end": "1545",
+									"duration": 2,
+									"room": "608",
+									"teacher": "FERNANDEZ TERRAZAS ERIKA",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "815",
+									"end": "1030",
+									"duration": 3,
+									"room": "690A",
+									"teacher": "FERNANDEZ TERRAZAS ERIKA",
+									"isClass": true
+								}
+							],
+							"teacher": "FERNANDEZ TERRAZAS ERIKA"
+						}
+					]
+				},
+				{
+					"code": "2004046",
+					"name": "QUIMICA GENERAL",
+					"groups": [
+						{
+							"code": "3",
+							"schedule": [
+								{
+									"day": "JU",
+									"start": "645",
+									"end": "815",
+									"duration": 2,
+									"room": "681L7",
+									"teacher": "MUNOZ QUISPE VLADIMIR FELIX",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "645",
+									"end": "815",
+									"duration": 2,
+									"room": "652",
+									"teacher": "MUNOZ QUISPE VLADIMIR FELIX",
+									"isClass": true
+								},
+								{
+									"day": "SA",
+									"start": "815",
+									"end": "945",
+									"duration": 2,
+									"room": "692G",
+									"teacher": "MUNOZ QUISPE VLADIMIR FELIX",
+									"isClass": true
+								}
+							],
+							"teacher": "MUNOZ QUISPE VLADIMIR FELIX"
+						}
+					]
+				},
+				{
+					"code": "2006018",
+					"name": "FISICA BASICA I",
+					"groups": [
+						{
+							"code": "H2",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "1715",
+									"end": "1845",
+									"duration": 2,
+									"room": "621",
+									"teacher": "CASTRO LAZARTE CECILIA BEATRIZ",
+									"isClass": false
+								}
+							],
+							"teacher": "CASTRO LAZARTE CECILIA BEATRIZ"
+						},
+						{
+							"code": "M",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "945",
+									"end": "1115",
+									"duration": 2,
+									"room": "624",
+									"teacher": "TORRICO TROCHE MILKA MONICA",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "945",
+									"end": "1115",
+									"duration": 2,
+									"room": "692B",
+									"teacher": "TORRICO TROCHE MILKA MONICA",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "945",
+									"end": "1115",
+									"duration": 2,
+									"room": "693A",
+									"teacher": "TORRICO TROCHE MILKA MONICA",
+									"isClass": true
+								}
+							],
+							"teacher": "TORRICO TROCHE MILKA MONICA"
+						}
+					]
+				},
+				{
+					"code": "2008053",
+					"name": "ALGEBRA I",
+					"groups": [
+						{
+							"code": "5",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "1715",
+									"end": "1845",
+									"duration": 2,
+									"room": "642",
+									"teacher": "CARRASCO CALVO ALVARO HERNANDO",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "1545",
+									"end": "1715",
+									"duration": 2,
+									"room": "617",
+									"teacher": "CARRASCO CALVO ALVARO HERNANDO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "1415",
+									"end": "1545",
+									"duration": 2,
+									"room": "607",
+									"teacher": "CARRASCO CALVO ALVARO HERNANDO",
+									"isClass": true
+								}
+							],
+							"teacher": "CARRASCO CALVO ALVARO HERNANDO"
+						}
+					]
+				},
+				{
+					"code": "2008054",
+					"name": "CALCULO I",
+					"groups": [
+						{
+							"code": "13",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "1845",
+									"end": "2015",
+									"duration": 2,
+									"room": "691F",
+									"teacher": "ZURITA ORELLANA RIMER MAURICIO",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "1845",
+									"end": "2015",
+									"duration": 2,
+									"room": "691E",
+									"teacher": "ZURITA ORELLANA RIMER MAURICIO",
+									"isClass": true
+								}
+							],
+							"teacher": "ZURITA ORELLANA RIMER MAURICIO"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "B",
+			"subjects": [
+				{
+					"code": "2006027",
+					"name": "FISICA II",
+					"groups": [
+						{
+							"code": "1",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "945",
+									"end": "1115",
+									"duration": 2,
+									"room": "617",
+									"teacher": "CHOQUE UNO FRANCISCO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "815",
+									"end": "945",
+									"duration": 2,
+									"room": "692A",
+									"teacher": "CHOQUE UNO FRANCISCO",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "815",
+									"end": "945",
+									"duration": 2,
+									"room": "692E",
+									"teacher": "CHOQUE UNO FRANCISCO",
+									"isClass": true
+								}
+							],
+							"teacher": "CHOQUE UNO FRANCISCO"
+						}
+					]
+				},
+				{
+					"code": "2008056",
+					"name": "CALCULO II",
+					"groups": [
+						{
+							"code": "11",
+							"schedule": [
+								{
+									"day": "MI",
+									"start": "1415",
+									"end": "1545",
+									"duration": 2,
+									"room": "691C",
+									"teacher": "GONZALES CASTELLON CARLOS ESTEBAN",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "945",
+									"end": "1115",
+									"duration": 2,
+									"room": "622",
+									"teacher": "GONZALES CASTELLON CARLOS ESTEBAN",
+									"isClass": true
+								}
+							],
+							"teacher": "GONZALES CASTELLON CARLOS ESTEBAN"
+						}
+					]
+				},
+				{
+					"code": "2008070",
+					"name": "GEOMETRIA",
+					"groups": [
+						{
+							"code": "1",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "1115",
+									"end": "1245",
+									"duration": 2,
+									"room": "690MAT",
+									"teacher": "SORUCO MAITA JOSE ANTONIO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "1545",
+									"end": "1715",
+									"duration": 2,
+									"room": "690E",
+									"teacher": "SORUCO MAITA JOSE ANTONIO",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "815",
+									"end": "945",
+									"duration": 2,
+									"room": "690E",
+									"teacher": "SORUCO MAITA JOSE ANTONIO",
+									"isClass": true
+								}
+							],
+							"teacher": "SORUCO MAITA JOSE ANTONIO"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "C",
+			"subjects": [
+				{
+					"code": "2008055",
+					"name": "ALGEBRA LINEAL",
+					"groups": [
+						{
+							"code": "1",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "1715",
+									"end": "1845",
+									"duration": 2,
+									"room": "690E",
+									"teacher": "SALINAS PERICON WALTER OSCAR",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "1715",
+									"end": "1845",
+									"duration": 2,
+									"room": "692A",
+									"teacher": "SALINAS PERICON WALTER OSCAR",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "1845",
+									"end": "2015",
+									"duration": 2,
+									"room": "690E",
+									"teacher": "SALINAS PERICON WALTER OSCAR",
+									"isClass": true
+								}
+							],
+							"teacher": "SALINAS PERICON WALTER OSCAR"
+						}
+					]
+				},
+				{
+					"code": "2008075",
+					"name": "ESTRUCTURAS DISCRETAS",
+					"groups": [
+						{
+							"code": "1",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "1545",
+									"end": "1715",
+									"duration": 2,
+									"room": "690E",
+									"teacher": "JUCHANI BAZUALDO DEMETRIO",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "1545",
+									"end": "1715",
+									"duration": 2,
+									"room": "690MAT",
+									"teacher": "JUCHANI BAZUALDO DEMETRIO",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "815",
+									"end": "945",
+									"duration": 2,
+									"room": "690MAT",
+									"teacher": "JUCHANI BAZUALDO DEMETRIO",
+									"isClass": true
+								}
+							],
+							"teacher": "JUCHANI BAZUALDO DEMETRIO"
+						}
+					]
+				},
+				{
+					"code": "2010008",
+					"name": "COMPUTACION I",
+					"groups": [
+						{
+							"code": "2",
+							"schedule": [
+								{
+									"day": "MI",
+									"start": "1845",
+									"end": "2015",
+									"duration": 2,
+									"room": "691C",
+									"teacher": "VARGAS COLQUE AIDEE",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "1845",
+									"end": "2015",
+									"duration": 2,
+									"room": "691F",
+									"teacher": "VARGAS COLQUE AIDEE",
+									"isClass": true
+								},
+								{
+									"day": "SA",
+									"start": "1115",
+									"end": "1245",
+									"duration": 2,
+									"room": "691B",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							],
+							"teacher": "VARGAS COLQUE AIDEE"
+						},
+						{
+							"code": "4",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "1845",
+									"end": "2015",
+									"duration": 2,
+									"room": "692A",
+									"teacher": "VARGAS COLQUE AIDEE",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "1845",
+									"end": "2015",
+									"duration": 2,
+									"room": "692B",
+									"teacher": "VARGAS COLQUE AIDEE",
+									"isClass": true
+								},
+								{
+									"day": "MI",
+									"start": "1545",
+									"end": "1715",
+									"duration": 2,
+									"room": "693B",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								}
+							],
+							"teacher": "VARGAS COLQUE AIDEE"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "D",
+			"subjects": [
+				{
+					"code": "2008077",
+					"name": "PROBABILIDAD Y ESTADISTICA I",
+					"groups": [
+						{
+							"code": "1",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "815",
+									"end": "945",
+									"duration": 2,
+									"room": "681A",
+									"teacher": "Por Designar ...",
+									"isClass": true
+								},
+								{
+									"day": "JU",
+									"start": "1415",
+									"end": "1545",
+									"duration": 2,
+									"room": "681A",
+									"teacher": "Por Designar ...",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "945",
+									"end": "1115",
+									"duration": 2,
+									"room": "681A",
+									"teacher": "Por Designar ...",
+									"isClass": true
+								}
+							],
+							"teacher": "Por Designar ..."
+						}
+					]
+				},
+				{
+					"code": "2008080",
+					"name": "ANALISIS I",
+					"groups": [
+						{
+							"code": "1",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "1845",
+									"end": "2015",
+									"duration": 2,
+									"room": "690MAT",
+									"teacher": "RELOS PACO SANTIAGO",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "1845",
+									"end": "2015",
+									"duration": 2,
+									"room": "690MAT",
+									"teacher": "RELOS PACO SANTIAGO",
+									"isClass": true
+								},
+								{
+									"day": "SA",
+									"start": "945",
+									"end": "1115",
+									"duration": 2,
+									"room": "690MAT",
+									"teacher": "RELOS PACO SANTIAGO",
+									"isClass": true
+								}
+							],
+							"teacher": "RELOS PACO SANTIAGO"
+						}
+					]
+				},
+				{
+					"code": "2008214",
+					"name": "MATEMATICA COMPUTACIONAL II",
+					"groups": [
+						{
+							"code": "1",
+							"schedule": [
+								{
+									"day": "MA",
+									"start": "1115",
+									"end": "1245",
+									"duration": 2,
+									"room": "CAE",
+									"teacher": "RODRIGUEZ BILBAO ERIKA PATRICIA",
+									"isClass": true
+								},
+								{
+									"day": "VI",
+									"start": "1115",
+									"end": "1245",
+									"duration": 2,
+									"room": "CAE",
+									"teacher": "RODRIGUEZ BILBAO ERIKA PATRICIA",
+									"isClass": true
+								}
+							],
+							"teacher": "RODRIGUEZ BILBAO ERIKA PATRICIA"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "E",
+			"subjects": [
+				{
+					"code": "2008081",
+					"name": "PROBABILIDAD Y ESTADISTICA II",
+					"groups": [
+						{
+							"code": "1",
+							"schedule": [
+								{
+									"day": "LU",
+									"start": "945",
+									"end": "1115",
+									"duration": 2,
+									"room": "623",
+									"teacher": "SORUCO MAITA JOSE ANTONIO",
+									"isClass": true
+								},
+								{
+									"day": "MA",
+									"start": "1545",
+									"end": "1715",
+									"duration": 2,
+									"room": "652",
+									"teacher": "AUXILIAR POR DESIGNAR",
+									"isClass": false
+								},
+								{
+									"day": "JU",
+									"start": "1545",
+									"end": "1715",
+									"duration": 2,
+									"room": "690MAT",
+									"teacher": "SORUCO MAITA JOSE ANTONIO",
+									"isClass": true
+								}
+							],
+							"teacher": "SORUCO MAITA JOSE ANTONIO"
+						}
+					]
+				}
+			]
+		}
+	]
+}
