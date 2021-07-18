@@ -12,5 +12,5 @@
 		"forceConsistentCasingInFileNames": true,
 		"skipLibCheck": true
 	},
-	"exclude": ["node_modules", "mock"]
+	"exclude": ["node_modules", "scripts"]
 }
