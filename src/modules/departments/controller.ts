@@ -14,9 +14,10 @@ class Controller {
 	}
 
 	async get(req: Request, res: Response): Promise<Response> {
-		try {
-			const model = await Model.get();
+		const department: string = req.url.slice(1);
 
+		try {
+			const model = await Model.get(department);
 			return res.status(200).json(model);
 		} catch (error) {
 			return res.status(422).json({ code: error.code, msg: error.message });

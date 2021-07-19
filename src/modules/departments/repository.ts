@@ -10,7 +10,7 @@ class Repository {
 		return model;
 	}
 
-	async get(department: string = "fcyt"): Promise<carrerOfDepartement[] | null> {
+	async get(department: string): Promise<carrerOfDepartement[] | null> {
 		return departments.getDepartment(department);
 	}
 }

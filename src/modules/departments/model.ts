@@ -5,8 +5,8 @@ class Model {
 		return await repository.show();
 	}
 
-	async get() {
-		return await repository.get();
+	async get(department: string) {
+		return await repository.get(department);
 	}
 }
 
