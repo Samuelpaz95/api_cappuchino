@@ -1,16 +1,15 @@
-import { carrerOfDepartement } from "./interface";
+import { IcarrerOfDepartement, Icarrer } from "./interface";
 import departments from "./domain/departments";
-import fs from "fs";
-const filesRoute = "./public/data";
+import carrers from "./domain/carrers";
 
 class Repository {
-	async show(department: string, carrer: string): Promise<[]> {
-		const model = "";
-		if (!model) return [];
-		return model;
+	async show(department: string, nameCarrer: string): Promise<Icarrer | null> {
+		const IndexCarrer = departments.getCarrerByDepartment(department, nameCarrer);
+		if (!IndexCarrer) return null;
+		return carrers.getCarrer(department, IndexCarrer);
 	}
 
-	async get(department: string): Promise<carrerOfDepartement[] | null> {
+	async get(department: string): Promise<IcarrerOfDepartement[] | null> {
 		return departments.getDepartment(department);
 	}
 }
