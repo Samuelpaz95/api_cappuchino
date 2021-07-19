@@ -1,10 +1,14 @@
 import { Request, Response } from "express";
 import Model from "./model";
+import { getBaseUrl } from "./utils/routes";
 
 class Controller {
 	async show(req: Request, res: Response): Promise<Response> {
+		const department: string = getBaseUrl(req.url);
+		const carrer: string = req.params.carrer;
+
 		try {
-			const model = await Model.show();
+			const model = await Model.show(department, carrer);
 			if (!model) return res.status(404).json({ msg: "Resource not found" });
 
 			return res.status(200).json(model);
@@ -14,7 +18,7 @@ class Controller {
 	}
 
 	async get(req: Request, res: Response): Promise<Response> {
-		const department: string = req.url.slice(1);
+		const department: string = getBaseUrl(req.url);
 
 		try {
 			const model = await Model.get(department);

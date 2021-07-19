@@ -1,8 +1,8 @@
 import repository from "./repository";
 
 class Model {
-	async show() {
-		return await repository.show();
+	async show(department: string, carrer: string) {
+		return await repository.show(department, carrer);
 	}
 
 	async get(department: string) {

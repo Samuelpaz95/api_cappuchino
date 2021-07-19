@@ -4,7 +4,7 @@ import fs from "fs";
 const filesRoute = "./public/data";
 
 class Repository {
-	async show(): Promise<[]> {
+	async show(department: string, carrer: string): Promise<[]> {
 		const model = "";
 		if (!model) return [];
 		return model;
