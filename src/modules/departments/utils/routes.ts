@@ -8,4 +8,6 @@ function getBaseUrl(route: string): string {
 	return route;
 }
 
-export { getBaseUrl };
+const pathDepartments: string = "./public/data/departments";
+
+export { getBaseUrl, pathDepartments };
