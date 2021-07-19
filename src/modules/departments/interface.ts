@@ -1,4 +1,4 @@
-interface carrerOfDepartement {
+interface IcarrerOfDepartement {
 	code: string;
 	semanticUrl: string;
 	name: string;
@@ -6,4 +6,26 @@ interface carrerOfDepartement {
 	semester: string;
 }
 
-export { carrerOfDepartement };
+interface Icarrer {
+	levels: {
+		code: string;
+		subjects: {
+			code: string;
+			name: string;
+			groups: {
+				code: string;
+				schedule: {
+					day: string;
+					start: string;
+					end: string;
+					duration: number;
+					room: string;
+					teacher: string;
+					isClass: boolean;
+				}[];
+			}[];
+		}[];
+	}[];
+}
+
+export { IcarrerOfDepartement, Icarrer };
