@@ -1,15 +1,15 @@
 import fs from "fs";
 import { IcarrerOfDepartement } from "../interface";
+import { pathDepartments } from "../utils/routes";
 
 class Departments {
 	private departments = new Map<string, IcarrerOfDepartement[]>();
-	private readonly pathFile = "./public/data";
 	constructor() {
 		this.buildDepartments();
 	}
 
 	private buildDepartments(): void {
-		fs.readdir(this.pathFile, (err, files: string[]) => {
+		fs.readdir(pathDepartments, (err, files: string[]) => {
 			if (err) {
 				console.log(err);
 				return;
@@ -17,7 +17,7 @@ class Departments {
 			files.forEach((file: string) => {
 				this.departments.set(
 					file.toLocaleLowerCase(),
-					JSON.parse(fs.readFileSync(`${this.pathFile}/${file}/index.json`).toString())
+					JSON.parse(fs.readFileSync(`${pathDepartments}/${file}/index.json`).toString())
 				);
 			});
 		});
