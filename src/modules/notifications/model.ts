@@ -1,4 +1,4 @@
-import service from "./service";
+import service from "./repository";
 
 class Model {
 	async show() {
