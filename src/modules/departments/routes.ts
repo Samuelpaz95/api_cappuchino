@@ -4,11 +4,11 @@ import fs from "fs";
 
 const router = Router();
 
-router.get(`/department/:carrer`, controller.show);
-
 fs.readdir("./public/data", (_, files: string[]) => {
-	files.forEach((file: string) => {
-		router.get(`/${file.toLocaleLowerCase()}`, controller.get);
+	files.forEach((department: string) => {
+		const nameDepartment: string = department.toLocaleLowerCase();
+		router.get(`/${nameDepartment}`, controller.get);
+		router.get(`/${nameDepartment}/:carrer`, controller.show);
 	});
 });
 
