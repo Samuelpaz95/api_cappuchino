@@ -3,18 +3,31 @@ import { Icarrer, IcarrerOfDepartement } from "../interface";
 import { pathDepartments } from "../utils/routes";
 
 class Carrers {
-	//TODO: hacerlo asincrono y trycatch por si no se accede al documento
-	getCarrer(
+	async getCarrer(
 		department: string,
-		{ code, semester }: IcarrerOfDepartement
-	): Icarrer | null {
-		const data = JSON.parse(
-			fs
-				.readFileSync(`${pathDepartments}/${department}/${semester}/${code}.json`)
-				.toString()
-		);
-		if (!data) return null;
-		return data;
+		{ semester, code }: IcarrerOfDepartement
+	): Promise<Icarrer | null> {
+		try {
+			let response = await this.readCarrer(`${department}/${semester}/${code}`);
+			if (!response) return null;
+			return JSON.parse(response);
+		} catch (error) {
+			console.log(error);
+			return null;
+		}
+	}
+
+	private readCarrer(routeFile: string): Promise<string | null> {
+		return new Promise<string | null>((resolve, reject) => {
+			fs.readFile(`${pathDepartments}/${routeFile}.json`, (err, data) => {
+				if (err) {
+					console.log(err);
+
+					reject(null);
+				}
+				resolve(data.toString());
+			});
+		});
 	}
 }
 
