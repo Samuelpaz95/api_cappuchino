@@ -1,6 +1,11 @@
 import { Request, Response } from "express";
 import Model from "./model";
 import { getBaseUrl } from "./utils/routes";
+import {
+	clientError,
+	resourceNotFound,
+	successfulRequest,
+} from "../../utils/handlerHttpRequest";
 
 class Controller {
 	async show(req: Request, res: Response): Promise<Response> {
@@ -9,11 +14,11 @@ class Controller {
 
 		try {
 			const model = await Model.show(department, carrer);
-			if (!model) return res.status(404).json({ msg: "Resource not found" });
+			if (!model) return resourceNotFound(res);
 
-			return res.status(200).json(model);
-		} catch (error) {
-			return res.status(422).json({ code: error.code, msg: error.message });
+			return successfulRequest(res, model);
+		} catch ({ code, message }) {
+			return clientError(res, { code, message });
 		}
 	}
 
@@ -22,11 +27,11 @@ class Controller {
 
 		try {
 			const model = await Model.get(department);
-			if (!model) return res.status(404).json({ msg: "Resource not found" });
+			if (!model) return resourceNotFound(res);
 
-			return res.status(200).json(model);
-		} catch (error) {
-			return res.status(422).json({ code: error.code, msg: error.message });
+			return successfulRequest(res, model);
+		} catch ({ code, message }) {
+			return clientError(res, { code, message });
 		}
 	}
 }
