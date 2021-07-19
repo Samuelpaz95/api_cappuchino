@@ -1,8 +1,8 @@
 import fs from "fs";
-import { carrerOfDepartement } from "../interface";
+import { IcarrerOfDepartement } from "../interface";
 
 class Departments {
-	private departments = new Map<string, carrerOfDepartement[]>();
+	private departments = new Map<string, IcarrerOfDepartement[]>();
 	private readonly pathFile = "./public/data";
 	constructor() {
 		this.buildDepartments();
@@ -14,7 +14,6 @@ class Departments {
 				console.log(err);
 				return;
 			}
-
 			files.forEach((file: string) => {
 				this.departments.set(
 					file.toLocaleLowerCase(),
@@ -24,9 +23,20 @@ class Departments {
 		});
 	}
 
-	getDepartment(keyDepartment: string): carrerOfDepartement[] | null {
+	getDepartment(keyDepartment: string): IcarrerOfDepartement[] | null {
 		const department = this.departments.get(keyDepartment);
 		return department ? department : null;
+	}
+
+	getCarrerByDepartment(
+		keyDepartment: string,
+		urlCarrer: string
+	): IcarrerOfDepartement | null {
+		const department = this.getDepartment(keyDepartment);
+		if (!department) return null;
+		const carrer = department.find(({ semanticUrl }) => semanticUrl == urlCarrer);
+		if (!carrer) return null;
+		return carrer;
 	}
 }
 
