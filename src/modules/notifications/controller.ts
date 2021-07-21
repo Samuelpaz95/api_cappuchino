@@ -8,8 +8,10 @@ import {
 
 class Controller {
 	async show(req: Request, res: Response): Promise<Response> {
+		const department: string = req.params.department;
+
 		try {
-			const model = await Model.show();
+			const model = await Model.show(department);
 			if (!model) return resourceNotFound(res);
 
 			return successfulRequest(res, model);
