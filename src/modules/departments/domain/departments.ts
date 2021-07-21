@@ -4,6 +4,7 @@ import { pathDepartments } from "../utils/routes";
 
 class Departments {
 	private departments = new Map<string, IcarrerOfDepartement[]>();
+
 	constructor() {
 		this.buildDepartments();
 	}
@@ -15,12 +16,16 @@ class Departments {
 				return;
 			}
 			files.forEach((file: string) => {
-				this.departments.set(
+				this.addDepartment(
 					file.toLocaleLowerCase(),
 					JSON.parse(fs.readFileSync(pathDepartments(`/${file}/index.json`)).toString())
 				);
 			});
 		});
+	}
+
+	private addDepartment(key: string, departmentCarrer: IcarrerOfDepartement[]) {
+		this.departments.set(key, departmentCarrer);
 	}
 
 	getDepartment(keyDepartment: string): IcarrerOfDepartement[] | null {
