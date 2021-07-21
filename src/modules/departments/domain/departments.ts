@@ -17,7 +17,7 @@ class Departments {
 			}
 			files.forEach((file: string) => {
 				this.addDepartment(
-					file.toLocaleLowerCase(),
+					file,
 					JSON.parse(fs.readFileSync(pathDepartments(`/${file}/index.json`)).toString())
 				);
 			});
