@@ -24,7 +24,7 @@ class Departments {
 		});
 	}
 
-	private addDepartment(key: string, departmentCarrer: IcarrerOfDepartement[]) {
+	private addDepartment(key: string, departmentCarrer: IcarrerOfDepartement[]): void {
 		this.departments.set(key, departmentCarrer);
 	}
 
