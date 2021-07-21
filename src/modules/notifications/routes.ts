@@ -4,6 +4,6 @@ import { Router } from "express";
 const router = Router();
 const breakPoint = "/notification";
 
-router.get(`${breakPoint}/:id`, controller.show);
+router.get(`${breakPoint}/:department`, controller.show);
 
 export { router };
