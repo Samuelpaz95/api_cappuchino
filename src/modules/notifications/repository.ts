@@ -1,10 +1,12 @@
-import { interfaceData } from "./interface";
+import messages from "./domain/messages";
 
 class Service {
-	async show(): Promise<interfaceData | null> {
-		const model = "";
-		if (!model) return null;
-		return model;
+	async getMessageByDepartment(department: string): Promise<string[] | null> {
+		return messages.getMessage(department);
+	}
+
+	async getGerneralMessage(): Promise<string[] | null> {
+		return messages.getMessage("general");
 	}
 }
 
