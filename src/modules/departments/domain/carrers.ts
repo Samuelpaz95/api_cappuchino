@@ -19,10 +19,9 @@ class Carrers {
 
 	private readCarrer(routeFile: string): Promise<string | null> {
 		return new Promise<string | null>((resolve, reject) => {
-			fs.readFile(`${pathDepartments}/${routeFile}.json`, (err, data) => {
+			fs.readFile(pathDepartments(`/${routeFile}.json`), (err, data) => {
 				if (err) {
 					console.log(err);
-
 					reject(null);
 				}
 				resolve(data.toString());

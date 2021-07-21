@@ -9,7 +9,7 @@ class Departments {
 	}
 
 	private buildDepartments(): void {
-		fs.readdir(pathDepartments, (err, files: string[]) => {
+		fs.readdir(pathDepartments(), (err, files: string[]) => {
 			if (err) {
 				console.log(err);
 				return;
@@ -17,7 +17,7 @@ class Departments {
 			files.forEach((file: string) => {
 				this.departments.set(
 					file.toLocaleLowerCase(),
-					JSON.parse(fs.readFileSync(`${pathDepartments}/${file}/index.json`).toString())
+					JSON.parse(fs.readFileSync(pathDepartments(`/${file}/index.json`)).toString())
 				);
 			});
 		});

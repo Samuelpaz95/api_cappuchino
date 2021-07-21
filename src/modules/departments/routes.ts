@@ -5,7 +5,7 @@ import { pathDepartments } from "./utils/routes";
 
 const router = Router();
 
-fs.readdir(pathDepartments, (_, files: string[]) => {
+fs.readdir(pathDepartments(), (_, files: string[]) => {
 	files.forEach((department: string) => {
 		const nameDepartment: string = department.toLocaleLowerCase();
 		router.get(`/${nameDepartment}`, controller.get);

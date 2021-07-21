@@ -1,3 +1,5 @@
+import path from "path";
+
 function getBaseUrl(route: string): string {
 	route = route.slice(1);
 	const index = route.indexOf("/");
@@ -8,6 +10,7 @@ function getBaseUrl(route: string): string {
 	return route;
 }
 
-const pathDepartments: string = "./public/data/departments";
+const pathDepartments = (filesPath: string = ""): string =>
+	path.resolve("./public/data/departments" + filesPath);
 
 export { getBaseUrl, pathDepartments };
