@@ -4,15 +4,16 @@ import { Imessages } from "../interfaces";
 
 class Massages {
 	private messages = new Map<string, Imessages>();
-	private readonly messagePath = "./public/data/messages";
+	private messageRoute: string;
 
-	constructor() {
+	constructor(messageRoute: string) {
+		this.messageRoute = messageRoute;
 		this.messages = this.readMessages();
 	}
 
 	private readMessages() {
 		const messages = new Map<string, Imessages>();
-		const files = fs.readdirSync(path.resolve(this.messagePath), {
+		const files = fs.readdirSync(path.resolve(this.messageRoute), {
 			withFileTypes: true,
 		});
 		const folders = files.filter((file) => file.isFile());
@@ -21,7 +22,7 @@ class Massages {
 			messages.set(
 				key,
 				JSON.parse(
-					fs.readFileSync(path.resolve(`${this.messagePath}/${name}`)).toString()
+					fs.readFileSync(path.resolve(`${this.messageRoute}/${name}`)).toString()
 				)
 			);
 		});
@@ -35,4 +36,4 @@ class Massages {
 	}
 }
 
-export default new Massages();
+export default Massages;

@@ -1,9 +1,9 @@
 import { Express } from "express";
 
 import { Module as departments } from "../modules/departments";
-import { router as notifications } from "../modules/notifications/routes";
+import { Module as notifications } from "../modules/notifications";
 
 export default function (app: Express) {
 	const dM = new departments(app);
-	app.use(notifications);
+	const nM = new notifications(app);
 }

@@ -1,13 +1,18 @@
-import repository from "./repository";
-import { Imodel } from "./interfaces";
+import { Imodel, Irepository, Imessages } from "./interfaces";
 
 class Model implements Imodel {
-	async show(department: string) {
-		const departmentMessages = await repository.getMessageByDepartment(department);
+	private repository: Irepository;
+
+	constructor(repository: Irepository) {
+		this.repository = repository;
+	}
+
+	async show(department: string): Promise<Imessages | null> {
+		const departmentMessages = await this.repository.getMessageByDepartment(department);
 		if (departmentMessages == null) {
 			return null;
 		}
-		const generalMessages = await repository.getGerneralMessage();
+		const generalMessages = await this.repository.getGerneralMessage();
 		if (generalMessages == null) {
 			return departmentMessages;
 		}
@@ -15,4 +20,4 @@ class Model implements Imodel {
 	}
 }
 
-export default new Model();
+export default Model;
