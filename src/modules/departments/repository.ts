@@ -17,6 +17,10 @@ class Repository {
 	async getDepartmentCarrers(department: string): Promise<IcarrerOfDepartement[] | null> {
 		return departments.getDepartment(department);
 	}
+
+	async getDepartments() {
+		return departments.getDepartments();
+	}
 }
 
 export default new Repository();
