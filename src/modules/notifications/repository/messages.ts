@@ -29,10 +29,6 @@ class Massages {
 		return messages;
 	}
 
-	private addMessages(key: string, messages: Imessages): void {
-		this.messages.set(key, messages);
-	}
-
 	getMessage(key: string): Imessages | null {
 		const message = this.messages.get(key);
 		return message ? message : null;
