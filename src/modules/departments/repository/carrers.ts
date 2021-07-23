@@ -14,7 +14,7 @@ class Carrers {
 		{ semester, code }: IdepartementCarrer
 	): Promise<Icarrer | null> {
 		try {
-			let response = await this.readCarrer(`${department}/${semester}/${code}.json`);
+			let response = await this.readCarrer(`/${department}/${semester}/${code}.json`);
 			if (!response) return null;
 			return JSON.parse(response);
 		} catch (error) {
