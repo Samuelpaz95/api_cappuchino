@@ -1,12 +1,12 @@
 import repository from "./repository";
 
 class Model {
-	async show(department: string, carrer: string) {
-		return await repository.show(department, carrer);
+	async getDepartmentCarrer(department: string, carrer: string) {
+		return await repository.getDepartmentCarrer(department, carrer);
 	}
 
-	async get(department: string) {
-		return await repository.get(department);
+	async getDepartmentCarrers(department: string) {
+		return await repository.getDepartmentCarrers(department);
 	}
 }
 

@@ -3,13 +3,16 @@ import departments from "./domain/departments";
 import carrers from "./domain/carrers";
 
 class Repository {
-	async show(department: string, nameCarrer: string): Promise<Icarrer | null> {
+	async getDepartmentCarrer(
+		department: string,
+		nameCarrer: string
+	): Promise<Icarrer | null> {
 		const IndexCarrer = departments.getCarrerByDepartment(department, nameCarrer);
 		if (!IndexCarrer) return null;
 		return carrers.getCarrer(department, IndexCarrer);
 	}
 
-	async get(department: string): Promise<IcarrerOfDepartement[] | null> {
+	async getDepartmentCarrers(department: string): Promise<IcarrerOfDepartement[] | null> {
 		return departments.getDepartment(department);
 	}
 }
