@@ -1,4 +1,4 @@
-interface IcarrerOfDepartement {
+interface IdepartementCarrer {
 	code: string;
 	semanticUrl: string;
 	name: string;
@@ -34,4 +34,4 @@ interface Idepartment {
 	madeIn: string;
 }
 
-export { IcarrerOfDepartement, Icarrer, Idepartment };
+export { IdepartementCarrer, Icarrer, Idepartment };

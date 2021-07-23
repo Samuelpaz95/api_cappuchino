@@ -1,9 +1,9 @@
 import fs from "fs";
-import { IcarrerOfDepartement, Idepartment } from "../interface";
+import { IdepartementCarrer, Idepartment } from "../interface";
 import { pathDepartments } from "../utils/routes";
 
 class Departments {
-	private departments = new Map<string, IcarrerOfDepartement[]>();
+	private departments = new Map<string, IdepartementCarrer[]>();
 	private descriptionDepartments: Idepartment[] = [];
 
 	constructor() {
@@ -33,11 +33,11 @@ class Departments {
 		});
 	}
 
-	private addDepartment(key: string, departmentCarrer: IcarrerOfDepartement[]): void {
+	private addDepartment(key: string, departmentCarrer: IdepartementCarrer[]): void {
 		this.departments.set(key, departmentCarrer);
 	}
 
-	getDepartment(keyDepartment: string): IcarrerOfDepartement[] | null {
+	getDepartment(keyDepartment: string): IdepartementCarrer[] | null {
 		const department = this.departments.get(keyDepartment);
 		return department ? department : null;
 	}
@@ -45,7 +45,7 @@ class Departments {
 	getCarrerByDepartment(
 		keyDepartment: string,
 		urlCarrer: string
-	): IcarrerOfDepartement | null {
+	): IdepartementCarrer | null {
 		const department = this.getDepartment(keyDepartment);
 		if (!department) return null;
 		const carrer = department.find(({ semanticUrl }) => semanticUrl == urlCarrer);

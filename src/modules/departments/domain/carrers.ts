@@ -1,11 +1,11 @@
 import fs from "fs";
-import { Icarrer, IcarrerOfDepartement } from "../interface";
+import { Icarrer, IdepartementCarrer } from "../interface";
 import { pathDepartments } from "../utils/routes";
 
 class Carrers {
 	async getCarrer(
 		department: string,
-		{ semester, code }: IcarrerOfDepartement
+		{ semester, code }: IdepartementCarrer
 	): Promise<Icarrer | null> {
 		try {
 			let response = await this.readCarrer(`${department}/${semester}/${code}`);

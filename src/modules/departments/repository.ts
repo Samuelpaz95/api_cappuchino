@@ -1,11 +1,11 @@
-import { IcarrerOfDepartement, Icarrer } from "./interface";
+import { IdepartementCarrer, Icarrer } from "./interface";
 import departments from "./domain/departments";
 import carrers from "./domain/carrers";
 
 class Repository {
 	async getDepartmentCarrer(
 		department: string,
-		IndexCarrer: IcarrerOfDepartement
+		IndexCarrer: IdepartementCarrer
 	): Promise<Icarrer | null> {
 		return carrers.getCarrer(department, IndexCarrer);
 	}
@@ -14,7 +14,7 @@ class Repository {
 		return departments.getCarrerByDepartment(department, nameCarrer);
 	}
 
-	async getDepartmentCarrers(department: string): Promise<IcarrerOfDepartement[] | null> {
+	async getDepartmentCarrers(department: string): Promise<IdepartementCarrer[] | null> {
 		return departments.getDepartment(department);
 	}
 
