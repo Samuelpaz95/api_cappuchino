@@ -1,6 +1,6 @@
 interface IdepartementCarrer {
 	code: string;
-	semanticUrl: string;
+	semanticName: string;
 	name: string;
 	madeIn: string;
 	semester: string;

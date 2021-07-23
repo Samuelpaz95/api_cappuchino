@@ -1,35 +1,35 @@
 [
 	{
 		"code": "administracion_de_empresas",
-		"semanticUrl": "administracion_de_empresas",
+		"semanticName": "administracion_de_empresas",
 		"name": "ADMINISTRACION DE EMPRESAS",
 		"madeIn": "SCESI UMSS",
 		"semester": "2021-1"
 	},
 	{
 		"code": "contaduria_publica",
-		"semanticUrl": "contaduria_publica",
+		"semanticName": "contaduria_publica",
 		"name": "CONTADURIA PUBLICA",
 		"madeIn": "SCESI UMSS",
 		"semester": "2021-1"
 	},
 	{
 		"code": "economia",
-		"semanticUrl": "economia",
+		"semanticName": "economia",
 		"name": "ECONOMIA",
 		"madeIn": "SCESI UMSS",
 		"semester": "2021-1"
 	},
 	{
 		"code": "ingenieria_comercial",
-		"semanticUrl": "ingenieria_comercial",
+		"semanticName": "ingenieria_comercial",
 		"name": "INGENIERIA COMERCIAL",
 		"madeIn": "SCESI UMSS",
 		"semester": "2021-1"
 	},
 	{
 		"code": "ingenieria_financiera",
-		"semanticUrl": "ingenieria_financiera",
+		"semanticName": "ingenieria_financiera",
 		"name": "INGENIERIA FINANCIERA",
 		"madeIn": "SCESI UMSS",
 		"semester": "2021-1"

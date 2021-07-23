@@ -48,7 +48,7 @@ class Departments {
 	): IdepartementCarrer | null {
 		const department = this.getDepartment(keyDepartment);
 		if (!department) return null;
-		const carrer = department.find(({ semanticUrl }) => semanticUrl == urlCarrer);
+		const carrer = department.find(({ semanticName }) => semanticName == urlCarrer);
 		if (!carrer) return null;
 		return carrer;
 	}
