@@ -1,11 +1,24 @@
-import controller from "./controller";
-import { Router } from "express";
+import { Icontroller } from "./interfaces";
+import { Express } from "express";
 
-const router = Router();
-const breakPoint = "/departments";
+class Routes {
+	private routeController: Icontroller;
+	private breakPoint = "/departments";
 
-router.get(breakPoint, controller.get);
-router.get(`${breakPoint}/:department`, controller.getDepartmentCarrers);
-router.get(`${breakPoint}/:department/:carrer`, controller.getDepartmentCarrer);
+	constructor(app: Express, routeController: Icontroller) {
+		this.routeController = routeController;
+		this.configureRoutes(app);
+	}
 
-export { router };
+	private configureRoutes(app: Express) {
+		app.route(this.breakPoint).get(this.routeController.get);
+		app
+			.route(`${this.breakPoint}/:department`)
+			.get(this.routeController.getDepartmentCarrers);
+		app
+			.route(`${this.breakPoint}/:department/:carrer`)
+			.get(this.routeController.getDepartmentCarrer);
+	}
+}
+
+export default Routes;
