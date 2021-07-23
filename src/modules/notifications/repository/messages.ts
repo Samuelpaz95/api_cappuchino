@@ -7,25 +7,26 @@ class Massages {
 	private readonly messagePath = "./public/data/messages";
 
 	constructor() {
-		this.readMessages();
+		this.messages = this.readMessages();
 	}
 
 	private readMessages() {
-		fs.readdir(path.resolve(this.messagePath), (error, files: string[]) => {
-			if (error) {
-				console.log(error);
-				return;
-			}
-			files.forEach((messages: string) => {
-				const key = messages.slice(0, messages.length - 5);
-				this.addMessages(
-					key,
-					JSON.parse(
-						fs.readFileSync(path.resolve(`${this.messagePath}/${messages}`)).toString()
-					)
-				);
-			});
+		const messages = new Map<string, Imessages>();
+		const files = fs.readdirSync(path.resolve(this.messagePath), {
+			withFileTypes: true,
 		});
+		const folders = files.filter((file) => file.isFile());
+		folders.forEach(({ name }) => {
+			const key = name.slice(0, name.indexOf("."));
+			messages.set(
+				key,
+				JSON.parse(
+					fs.readFileSync(path.resolve(`${this.messagePath}/${name}`)).toString()
+				)
+			);
+		});
+
+		return messages;
 	}
 
 	private addMessages(key: string, messages: Imessages): void {
