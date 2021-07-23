@@ -28,4 +28,10 @@ interface Icarrer {
 	}[];
 }
 
-export { IcarrerOfDepartement, Icarrer };
+interface Idepartment {
+	semanticName: string;
+	name: string;
+	madeIn: string;
+}
+
+export { IcarrerOfDepartement, Icarrer, Idepartment };
