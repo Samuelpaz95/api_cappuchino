@@ -58,4 +58,4 @@ class Departments {
 	}
 }
 
-export default new Departments();
+export default Departments;

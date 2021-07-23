@@ -1,25 +1,33 @@
 import { IdepartementCarrer, Icarrer } from "./interface";
-import departments from "./domain/departments";
-import carrers from "./domain/carrers";
+import Departments from "./domain/departments";
+import Carrers from "./domain/carrers";
 
 class Repository {
+	private carrers: Carrers;
+	private departments: Departments;
+
+	constructor() {
+		this.carrers = new Carrers();
+		this.departments = new Departments();
+	}
+
 	async getDepartmentCarrer(
 		department: string,
 		IndexCarrer: IdepartementCarrer
 	): Promise<Icarrer | null> {
-		return carrers.getCarrer(department, IndexCarrer);
+		return this.carrers.getCarrer(department, IndexCarrer);
 	}
 
 	async getIndexCarrerByDepartment(department: string, nameCarrer: string) {
-		return departments.getCarrerByDepartment(department, nameCarrer);
+		return this.departments.getCarrerByDepartment(department, nameCarrer);
 	}
 
 	async getDepartmentCarrers(department: string): Promise<IdepartementCarrer[] | null> {
-		return departments.getDepartment(department);
+		return this.departments.getDepartment(department);
 	}
 
 	async getDepartments() {
-		return departments.getDepartments();
+		return this.departments.getDepartments();
 	}
 }
 

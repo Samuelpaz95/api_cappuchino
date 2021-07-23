@@ -30,4 +30,4 @@ class Carrers {
 	}
 }
 
-export default new Carrers();
+export default Carrers;
