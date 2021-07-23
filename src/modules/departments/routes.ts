@@ -1,16 +1,10 @@
 import controller from "./controller";
 import { Router } from "express";
-import fs from "fs";
-import { pathDepartments } from "./utils/routes";
 
 const router = Router();
+const breakPoint = "/departments";
 
-fs.readdir(pathDepartments(), (_, files: string[]) => {
-	files.forEach((department: string) => {
-		const nameDepartment: string = department.toLocaleLowerCase();
-		router.get(`/${nameDepartment}`, controller.getDepartmentCarrers);
-		router.get(`/${nameDepartment}/:carrer`, controller.getDepartmentCarrer);
-	});
-});
+router.get(`${breakPoint}/:department`, controller.getDepartmentCarrers);
+router.get(`${breakPoint}/:department/:carrer`, controller.getDepartmentCarrer);
 
 export { router };

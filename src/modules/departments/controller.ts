@@ -1,6 +1,5 @@
 import { Request, Response } from "express";
 import Model from "./model";
-import { getBaseUrl } from "./utils/routes";
 import {
 	clientError,
 	resourceNotFound,
@@ -9,7 +8,7 @@ import {
 
 class Controller {
 	async getDepartmentCarrer(req: Request, res: Response): Promise<Response> {
-		const department: string = getBaseUrl(req.url);
+		const department: string = req.params.department;
 		const carrer: string = req.params.carrer;
 
 		try {
@@ -23,7 +22,7 @@ class Controller {
 	}
 
 	async getDepartmentCarrers(req: Request, res: Response): Promise<Response> {
-		const department: string = getBaseUrl(req.url);
+		const department: string = req.params.department;
 
 		try {
 			const model = await Model.getDepartmentCarrers(department);
