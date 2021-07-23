@@ -7,34 +7,25 @@ class Departments {
 	private descriptionDepartments: Idepartment[] = [];
 
 	constructor() {
-		this.buildDepartments();
-		this.readDescriptionDepartments();
+		this.departments = this.buildDepartments();
+		this.descriptionDepartments = this.readDescriptionDepartments();
 	}
 
-	private readDescriptionDepartments() {
-		this.descriptionDepartments = JSON.parse(
-			fs.readFileSync(pathDepartments(`/index.json`)).toString()
-		);
+	private readDescriptionDepartments(): Idepartment[] {
+		return JSON.parse(fs.readFileSync(pathDepartments(`/index.json`)).toString());
 	}
 
-	private buildDepartments(): void {
-		fs.readdir(pathDepartments(), (err, files: string[]) => {
-			if (err) {
-				console.log(err);
-				return;
-			}
-			files.forEach((file: string) => {
-				if (file.indexOf(".") > 0) return;
-				this.addDepartment(
-					file,
-					JSON.parse(fs.readFileSync(pathDepartments(`/${file}/index.json`)).toString())
-				);
-			});
+	private buildDepartments(): Map<string, IdepartementCarrer[]> {
+		const departments = new Map<string, IdepartementCarrer[]>();
+		const files = fs.readdirSync(pathDepartments(), { withFileTypes: true });
+		const folders = files.filter((file) => file.isDirectory());
+		folders.forEach(({ name }) => {
+			departments.set(
+				name,
+				JSON.parse(fs.readFileSync(pathDepartments(`/${name}/index.json`)).toString())
+			);
 		});
-	}
-
-	private addDepartment(key: string, departmentCarrer: IdepartementCarrer[]): void {
-		this.departments.set(key, departmentCarrer);
+		return departments;
 	}
 
 	getDepartment(keyDepartment: string): IdepartementCarrer[] | null {
