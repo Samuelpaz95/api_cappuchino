@@ -1,4 +1,4 @@
-import messages from "./domain/messages";
+import messages from "./messages";
 
 class Service {
 	async getMessageByDepartment(department: string): Promise<string[] | null> {
