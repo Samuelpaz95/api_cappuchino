@@ -1,12 +1,20 @@
 import fs from "fs";
-import { IcarrerOfDepartement } from "../interface";
+import { IcarrerOfDepartement, Idepartment } from "../interface";
 import { pathDepartments } from "../utils/routes";
 
 class Departments {
 	private departments = new Map<string, IcarrerOfDepartement[]>();
+	private descriptionDepartments: Idepartment[] = [];
 
 	constructor() {
 		this.buildDepartments();
+		this.readDescriptionDepartments();
+	}
+
+	private readDescriptionDepartments() {
+		this.descriptionDepartments = JSON.parse(
+			fs.readFileSync(pathDepartments(`/index.json`)).toString()
+		);
 	}
 
 	private buildDepartments(): void {
@@ -43,6 +51,10 @@ class Departments {
 		const carrer = department.find(({ semanticUrl }) => semanticUrl == urlCarrer);
 		if (!carrer) return null;
 		return carrer;
+	}
+
+	getDepartments(): Idepartment[] {
+		return this.descriptionDepartments;
 	}
 }
 
