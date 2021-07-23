@@ -5,10 +5,11 @@ import Carrers from "./carrers";
 class Repository implements Irepository {
 	private carrers: Carrers;
 	private departments: Departments;
+	private readonly departmentsRoute: string = "./public/data/departments";
 
 	constructor() {
-		this.carrers = new Carrers();
-		this.departments = new Departments();
+		this.carrers = new Carrers(this.departmentsRoute);
+		this.departments = new Departments(this.departmentsRoute);
 	}
 
 	async getDepartmentCarrer(

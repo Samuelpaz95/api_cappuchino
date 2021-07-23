@@ -1,28 +1,38 @@
 import fs from "fs";
+import path from "path";
 import { IdepartementCarrer, Idepartment } from "../interfaces";
-import { pathDepartments } from "../utils/routes";
 
 class Departments {
 	private departments = new Map<string, IdepartementCarrer[]>();
 	private descriptionDepartments: Idepartment[] = [];
+	private departmentsRoute: string;
 
-	constructor() {
+	constructor(departmentsRoute: string) {
+		this.departmentsRoute = departmentsRoute;
 		this.departments = this.buildDepartments();
 		this.descriptionDepartments = this.readDescriptionDepartments();
 	}
 
 	private readDescriptionDepartments(): Idepartment[] {
-		return JSON.parse(fs.readFileSync(pathDepartments(`/index.json`)).toString());
+		return JSON.parse(
+			fs.readFileSync(path.resolve(this.departmentsRoute + "/index.json")).toString()
+		);
 	}
 
 	private buildDepartments(): Map<string, IdepartementCarrer[]> {
 		const departments = new Map<string, IdepartementCarrer[]>();
-		const files = fs.readdirSync(pathDepartments(), { withFileTypes: true });
+		const files = fs.readdirSync(path.resolve(this.departmentsRoute), {
+			withFileTypes: true,
+		});
 		const folders = files.filter((file) => file.isDirectory());
 		folders.forEach(({ name }) => {
 			departments.set(
 				name,
-				JSON.parse(fs.readFileSync(pathDepartments(`/${name}/index.json`)).toString())
+				JSON.parse(
+					fs
+						.readFileSync(path.resolve(this.departmentsRoute + `/${name}/index.json`))
+						.toString()
+				)
 			);
 		});
 		return departments;
