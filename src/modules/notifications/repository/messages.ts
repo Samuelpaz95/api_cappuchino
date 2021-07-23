@@ -1,8 +1,9 @@
 import fs from "fs";
 import path from "path";
+import { Imessages } from "../interfaces";
 
 class Massages {
-	private messages = new Map<string, string[]>();
+	private messages = new Map<string, Imessages>();
 	private readonly messagePath = "./public/data/messages";
 
 	constructor() {
@@ -27,11 +28,11 @@ class Massages {
 		});
 	}
 
-	private addMessages(key: string, Messages: string[]): void {
-		this.messages.set(key, Messages);
+	private addMessages(key: string, messages: Imessages): void {
+		this.messages.set(key, messages);
 	}
 
-	getMessage(key: string): string[] | null {
+	getMessage(key: string): Imessages | null {
 		const message = this.messages.get(key);
 		return message ? message : null;
 	}
