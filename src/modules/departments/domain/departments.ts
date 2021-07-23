@@ -1,5 +1,5 @@
 import fs from "fs";
-import { IdepartementCarrer, Idepartment } from "../interface";
+import { IdepartementCarrer, Idepartment } from "../interfaces";
 import { pathDepartments } from "../utils/routes";
 
 class Departments {

@@ -1,5 +1,5 @@
 import fs from "fs";
-import { Icarrer, IdepartementCarrer } from "../interface";
+import { Icarrer, IdepartementCarrer } from "../interfaces";
 import { pathDepartments } from "../utils/routes";
 
 class Carrers {
