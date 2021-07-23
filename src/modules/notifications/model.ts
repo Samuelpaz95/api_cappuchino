@@ -1,6 +1,7 @@
 import repository from "./repository";
+import { Imodel } from "./interfaces";
 
-class Model {
+class Model implements Imodel {
 	async show(department: string) {
 		const departmentMessages = await repository.getMessageByDepartment(department);
 		if (departmentMessages == null) {
