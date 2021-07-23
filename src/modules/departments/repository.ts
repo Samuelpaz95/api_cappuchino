@@ -5,11 +5,13 @@ import carrers from "./domain/carrers";
 class Repository {
 	async getDepartmentCarrer(
 		department: string,
-		nameCarrer: string
+		IndexCarrer: IcarrerOfDepartement
 	): Promise<Icarrer | null> {
-		const IndexCarrer = departments.getCarrerByDepartment(department, nameCarrer);
-		if (!IndexCarrer) return null;
 		return carrers.getCarrer(department, IndexCarrer);
+	}
+
+	async getIndexCarrerByDepartment(department: string, nameCarrer: string) {
+		return departments.getCarrerByDepartment(department, nameCarrer);
 	}
 
 	async getDepartmentCarrers(department: string): Promise<IcarrerOfDepartement[] | null> {

@@ -1,8 +1,11 @@
+import { Icarrer } from "./interface";
 import repository from "./repository";
 
 class Model {
-	async getDepartmentCarrer(department: string, carrer: string) {
-		return await repository.getDepartmentCarrer(department, carrer);
+	async getDepartmentCarrer(department: string, carrer: string): Promise<Icarrer | null> {
+		const IndexCarrer = await repository.getIndexCarrerByDepartment(department, carrer);
+		if (!IndexCarrer) return null;
+		return repository.getDepartmentCarrer(department, IndexCarrer);
 	}
 
 	async getDepartmentCarrers(department: string) {
