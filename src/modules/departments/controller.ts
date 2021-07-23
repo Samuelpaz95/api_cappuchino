@@ -7,6 +7,17 @@ import {
 } from "../../utils/handlerHttpRequest";
 
 class Controller {
+	async get(_: Request, res: Response): Promise<Response> {
+		try {
+			const model = await Model.getDepartments();
+			if (!model) return resourceNotFound(res);
+
+			return successfulRequest(res, model);
+		} catch ({ code, message }) {
+			return clientError(res, { code, message });
+		}
+	}
+
 	async getDepartmentCarrer(req: Request, res: Response): Promise<Response> {
 		const department: string = req.params.department;
 		const carrer: string = req.params.carrer;
