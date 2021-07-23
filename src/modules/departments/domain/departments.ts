@@ -16,6 +16,7 @@ class Departments {
 				return;
 			}
 			files.forEach((file: string) => {
+				if (file.indexOf(".") > 0) return;
 				this.addDepartment(
 					file,
 					JSON.parse(fs.readFileSync(pathDepartments(`/${file}/index.json`)).toString())
