@@ -4,6 +4,7 @@ import { Router } from "express";
 const router = Router();
 const breakPoint = "/departments";
 
+router.get(breakPoint, controller.get);
 router.get(`${breakPoint}/:department`, controller.getDepartmentCarrers);
 router.get(`${breakPoint}/:department/:carrer`, controller.getDepartmentCarrer);
 
