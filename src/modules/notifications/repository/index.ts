@@ -1,6 +1,7 @@
+import { Irepository } from "../interfaces";
 import messages from "./messages";
 
-class Service {
+class Service implements Irepository {
 	async getMessageByDepartment(department: string): Promise<string[] | null> {
 		if (department == "general") return null;
 		return messages.getMessage(department);
