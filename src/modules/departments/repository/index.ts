@@ -1,8 +1,8 @@
-import { IdepartementCarrer, Icarrer } from "./interface";
-import Departments from "./domain/departments";
-import Carrers from "./domain/carrers";
+import { IdepartementCarrer, Icarrer, Irepository } from "../interfaces";
+import Departments from "./departments";
+import Carrers from "./carrers";
 
-class Repository {
+class Repository implements Irepository {
 	private carrers: Carrers;
 	private departments: Departments;
 
@@ -18,7 +18,10 @@ class Repository {
 		return this.carrers.getCarrer(department, IndexCarrer);
 	}
 
-	async getIndexCarrerByDepartment(department: string, nameCarrer: string) {
+	async getIndexCarrerByDepartment(
+		department: string,
+		nameCarrer: string
+	): Promise<IdepartementCarrer | null> {
 		return this.departments.getCarrerByDepartment(department, nameCarrer);
 	}
 
@@ -31,4 +34,4 @@ class Repository {
 	}
 }
 
-export default new Repository();
+export default Repository;
