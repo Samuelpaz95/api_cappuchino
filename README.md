@@ -15,7 +15,7 @@
 ## Run development app
 
 ```
-    npm run serve
+    npm run dev
 ```
 
 ## Build app

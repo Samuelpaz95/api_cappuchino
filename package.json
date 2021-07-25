@@ -5,21 +5,22 @@
 	"main": "dist/index.js",
 	"scripts": {
 		"build": "rimraf dist && tsc",
-		"serve": "nodemon src/index.ts",
+		"dev": "nodemon",
 		"start": "node dist/index.js"
 	},
 	"keywords": [],
 	"author": "@Avsco",
 	"license": "MIT",
 	"dependencies": {
-		"@types/morgan": "^1.9.3",
 		"cors": "^2.8.5",
-		"express": "^4.17.1",
-		"morgan": "^1.10.0"
+		"express": "^4.17.1"
 	},
 	"devDependencies": {
 		"@types/cors": "^2.8.12",
 		"@types/express": "^4.17.13",
+		"@types/morgan": "^1.9.3",
+		"prettier": "^2.3.2",
+		"morgan": "^1.10.0",
 		"nodemon": "^2.0.12",
 		"rimraf": "^3.0.2",
 		"ts-node": "^10.1.0",

@@ -1,6 +1,7 @@
 import express, { Express } from "express";
 import cors from "cors";
 import router from "./router";
+import path from "path";
 
 import morgan from "morgan";
 
@@ -10,22 +11,16 @@ class App {
 
 	constructor() {
 		this.config();
-		this.rootRoute();
 		this.initRoutes();
 	}
 
 	async initServer() {
 		try {
+			this.app.use(express.static(path.join(__dirname, "../public")));
 			this.app.listen(this.port, () => console.log(`Listening on http://${"localhost"}:${this.port}/`));
 		} catch (error) {
 			console.error(error);
 		}
-	}
-
-	private rootRoute() {
-		this.app.get("/", (_, res) => {
-			res.send("Hello World!");
-		});
 	}
 
 	private config() {

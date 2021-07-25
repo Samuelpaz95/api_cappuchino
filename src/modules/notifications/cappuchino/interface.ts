@@ -1,3 +1,0 @@
-interface interfaceData {}
-
-export { interfaceData };
