@@ -19,8 +19,8 @@ class Controller implements Icontroller {
 			if (!model) return resourceNotFound(res);
 
 			return successfulRequest(res, model);
-		} catch ({ code, message }) {
-			return clientError(res, { code, message });
+		} catch ({ message }) {
+			return clientError(res, message);
 		}
 	};
 
@@ -33,8 +33,8 @@ class Controller implements Icontroller {
 			if (!model) return resourceNotFound(res);
 
 			return successfulRequest(res, model);
-		} catch ({ code, message }) {
-			return clientError(res, { code, message });
+		} catch ({ message }) {
+			return clientError(res, message);
 		}
 	};
 
@@ -46,8 +46,8 @@ class Controller implements Icontroller {
 			if (!model) return resourceNotFound(res);
 
 			return successfulRequest(res, model);
-		} catch ({ code, message }) {
-			return clientError(res, { code, message });
+		} catch ({ message }) {
+			return clientError(res, message);
 		}
 	};
 }
