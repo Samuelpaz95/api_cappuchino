@@ -13,14 +13,14 @@ class Controller implements Icontroller {
 		this.model = model;
 	}
 
-	get = async (_: Request, res: Response): Promise<Response> => {
+	getInfoDeparments = async (_: Request, res: Response): Promise<Response> => {
 		try {
 			const model = await this.model.getDepartments();
 			if (!model) return resourceNotFound(res);
 
 			return successfulRequest(res, model);
-		} catch ({ message }) {
-			return clientError(res, message);
+		} catch (error) {
+			return clientError(res, "");
 		}
 	};
 
@@ -33,8 +33,8 @@ class Controller implements Icontroller {
 			if (!model) return resourceNotFound(res);
 
 			return successfulRequest(res, model);
-		} catch ({ message }) {
-			return clientError(res, message);
+		} catch (error) {
+			return clientError(res, "");
 		}
 	};
 
@@ -46,8 +46,8 @@ class Controller implements Icontroller {
 			if (!model) return resourceNotFound(res);
 
 			return successfulRequest(res, model);
-		} catch ({ message }) {
-			return clientError(res, message);
+		} catch (error) {
+			return clientError(res, "");
 		}
 	};
 }
