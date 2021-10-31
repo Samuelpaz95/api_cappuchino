@@ -11,7 +11,7 @@ class Routes {
 	}
 
 	private configureRoutes(app: Express) {
-		app.route(this.breakPoint).get(this.routeController.get);
+		app.route(this.breakPoint).get(this.routeController.getInfoDeparments);
 		app
 			.route(`${this.breakPoint}/:department`)
 			.get(this.routeController.getDepartmentCarrers);

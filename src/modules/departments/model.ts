@@ -18,12 +18,12 @@ class Model implements Imodel {
 	}
 
 	async getDepartmentCarrer(department: string, carrer: string): Promise<Icarrer | null> {
-		const IndexCarrer = await this.repository.getIndexCarrerByDepartment(
+		const indexCarrer = await this.repository.getIndexCarrerByDepartment(
 			department,
 			carrer
 		);
-		if (!IndexCarrer) return null;
-		return this.repository.getDepartmentCarrer(department, IndexCarrer);
+		if (!indexCarrer) return null;
+		return this.repository.getDepartmentCarrer(department, indexCarrer);
 	}
 
 	async getDepartmentCarrers(department: string): Promise<IdepartementCarrer[] | null> {
