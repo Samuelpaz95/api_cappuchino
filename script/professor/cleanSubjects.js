@@ -18,36 +18,38 @@ const cleanSubjects = () => {
 			}))
 		);
 
-	const subjectsByDeparments = subjectInfoByDepartment
-		.map((subjectInfo) =>
-			subjectInfo
-				.map(({ code, faculty, semester }) =>
-					readFileSync(ROOT_FILE + `${faculty}/${semester}/${code}.json`)
-				)
-				.map(JSON.parse)
-				.map(({ levels }) => levels)
-				.flat()
-				.map(({ subjects }) => subjects)
-				.flat()
-				.map((subject) => ({
-					...subject,
-					department: subjectInfo[0].faculty,
-				}))
-		)
-		.flat();
+	const subjectsByDeparments = subjectInfoByDepartment.map((subjectInfo) =>
+		subjectInfo
+			.map(({ code, faculty, semester }) =>
+				readFileSync(ROOT_FILE + `${faculty}/${semester}/${code}.json`)
+			)
+			.map(JSON.parse)
+			.map(({ levels }) => levels)
+			.flat()
+			.map(({ subjects }) => subjects)
+			.flat()
+			.map((subject) => ({
+				...subject,
+				department: subjectInfo[0].faculty,
+			}))
+	);
 
-	const repeatedGroups = new Set();
-	const filteredSubjects = subjectsByDeparments.map((subject) => {
-		subject.groups = subject.groups.filter((group) => {
-			if (!repeatedGroups.has(`${subject.department}/${subject.name}/${group.code}`)) {
-				repeatedGroups.add(`${subject.department}/${subject.name}/${group.code}`);
-				return true;
-			}
-			return false;
+	const subjectsFilteredByDepament = subjectsByDeparments.map((subjetsByDeparment) => {
+		const repeatedGroups = new Set();
+		const filteredSubjects = subjetsByDeparment.map((subject) => {
+			subject.groups = subject.groups.filter((group) => {
+				if (!repeatedGroups.has(`${subject.department}/${subject.name}/${group.code}`)) {
+					repeatedGroups.add(`${subject.department}/${subject.name}/${group.code}`);
+					return true;
+				}
+				return false;
+			});
+			return subject;
 		});
-		return subject;
+		return filteredSubjects;
 	});
-	return filteredSubjects;
+
+	return subjectsFilteredByDepament;
 };
 
 module.exports = { cleanSubjects };
