@@ -1,13 +1,13 @@
-const fs = require("fs");
+import { readFileSync } from "fs";
 const ROOT_FILE = "./public/data/departments/";
 
-const facultiesDataUnformated = fs.readFileSync(ROOT_FILE + "index.json");
+const facultiesDataUnformated = readFileSync(ROOT_FILE + "index.json");
 const faculties = JSON.parse(facultiesDataUnformated).map(
 	({ semanticName }) => semanticName
 );
 
 const subjectInfoByDepartment = faculties
-	.map((faculty) => fs.readFileSync(ROOT_FILE + `${faculty}/index.json`))
+	.map((faculty) => readFileSync(ROOT_FILE + `${faculty}/index.json`))
 	.map(JSON.parse)
 	.map((subject, i) =>
 		subject.map(({ code, semester }) => ({
@@ -17,11 +17,11 @@ const subjectInfoByDepartment = faculties
 		}))
 	);
 
-const allSubjects = subjectInfoByDepartment
+const subjectsByDeparments = subjectInfoByDepartment
 	.map((subjectInfo) =>
 		subjectInfo
 			.map(({ code, faculty, semester }) =>
-				fs.readFileSync(ROOT_FILE + `${faculty}/${semester}/${code}.json`)
+				readFileSync(ROOT_FILE + `${faculty}/${semester}/${code}.json`)
 			)
 			.map(JSON.parse)
 			.map(({ levels }) => levels)
@@ -30,10 +30,19 @@ const allSubjects = subjectInfoByDepartment
 			.flat()
 			.map((subject) => ({
 				...subject,
-				code: subject.code + subjectInfo[0].faculty,
+				department: subjectInfo[0].faculty,
 			}))
 	)
 	.flat();
 
-//filter repeated groups by subject code and codeGroup
-console.log(allSubjects);
+const repeatedGroups = new Set();
+const filteredSubjects = subjectsByDeparments.map((subject) => {
+	subject.groups = subject.groups.filter((group) => {
+		if (!repeatedGroups.has(`${subject.department}/${subject.name}/${group.code}`)) {
+			repeatedGroups.add(`${subject.department}/${subject.name}/${group.code}`);
+			return true;
+		}
+		return false;
+	});
+	return subject;
+});
