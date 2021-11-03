@@ -30,23 +30,26 @@ const cleanSubjects = () => {
 			.flat()
 			.map((subject) => ({
 				...subject,
-				department: subjectInfo[0].faculty,
 			}))
 	);
 
-	const subjectsFilteredByDepament = subjectsByDeparments.map((subjetsByDeparment) => {
+	const subjectsFilteredByDepament = subjectsByDeparments.map((subjetsByDeparment, i) => {
 		const repeatedGroups = new Set();
 		const filteredSubjects = subjetsByDeparment.map((subject) => {
 			subject.groups = subject.groups.filter((group) => {
-				if (!repeatedGroups.has(`${subject.department}/${subject.name}/${group.code}`)) {
-					repeatedGroups.add(`${subject.department}/${subject.name}/${group.code}`);
+				if (!repeatedGroups.has(`${faculties[i]}/${subject.name}/${group.code}`)) {
+					repeatedGroups.add(`${faculties[i]}/${subject.name}/${group.code}`);
 					return true;
 				}
 				return false;
 			});
 			return subject;
 		});
-		return filteredSubjects;
+
+		return {
+			deparment: faculties[i],
+			filteredSubjects,
+		};
 	});
 
 	return subjectsFilteredByDepament;
