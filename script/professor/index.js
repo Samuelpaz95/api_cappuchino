@@ -1,19 +1,14 @@
 const { cleanSubjects } = require("./cleanSubjects");
+const { professorsByDeparment } = require("./scraper");
 const { writeFileSync } = require("fs");
 const ROUTE = "./public/data/";
 
 const subjectsByDepartments = cleanSubjects(ROUTE + "departments/");
+const professors = professorsByDeparment(subjectsByDepartments);
 
-subjectsByDepartments.forEach((subjectsByDepartment) => {
-	const professors = new Set();
-	subjectsByDepartment.subjects.forEach((subject) => {
-		subject.groups.forEach(({ teacher }) => {
-			professors.add(teacher);
-		});
-	});
-
+professors.forEach(({ deparment, professors }) => {
 	writeFileSync(
-		ROUTE + `professors/${subjectsByDepartment.deparment}/teachers.json`,
+		ROUTE + `professors/${deparment}/teachers.json`,
 		JSON.stringify([...professors])
 	);
 });
