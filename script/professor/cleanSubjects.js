@@ -1,14 +1,13 @@
 const { readFileSync } = require("fs");
-const ROOT_FILE = "./public/data/departments/";
 
-const cleanSubjects = () => {
-	const facultiesDataUnformated = readFileSync(ROOT_FILE + "index.json");
+const cleanSubjects = (route) => {
+	const facultiesDataUnformated = readFileSync(route + "index.json");
 	const faculties = JSON.parse(facultiesDataUnformated).map(
 		({ semanticName }) => semanticName
 	);
 
 	const subjectInfoByDepartment = faculties
-		.map((faculty) => readFileSync(ROOT_FILE + `${faculty}/index.json`))
+		.map((faculty) => readFileSync(route + `${faculty}/index.json`))
 		.map(JSON.parse)
 		.map((subject, i) =>
 			subject.map(({ code, semester }) => ({
@@ -21,16 +20,13 @@ const cleanSubjects = () => {
 	const subjectsByDeparments = subjectInfoByDepartment.map((subjectInfo) =>
 		subjectInfo
 			.map(({ code, faculty, semester }) =>
-				readFileSync(ROOT_FILE + `${faculty}/${semester}/${code}.json`)
+				readFileSync(route + `${faculty}/${semester}/${code}.json`)
 			)
 			.map(JSON.parse)
 			.map(({ levels }) => levels)
 			.flat()
 			.map(({ subjects }) => subjects)
 			.flat()
-			.map((subject) => ({
-				...subject,
-			}))
 	);
 
 	const subjectsFilteredByDepament = subjectsByDeparments.map((subjetsByDeparment, i) => {
@@ -48,7 +44,7 @@ const cleanSubjects = () => {
 
 		return {
 			deparment: faculties[i],
-			filteredSubjects,
+			subjects: filteredSubjects,
 		};
 	});
 
