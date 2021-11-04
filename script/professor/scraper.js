@@ -1,8 +1,9 @@
 function professorsByDeparment(subjectsByDepartments) {
-	const professorsByDeparment = [];
+	const professorsByDeparment = {};
 
-	subjectsByDepartments.forEach(({ subjects, deparment }) => {
+	Object.entries(subjectsByDepartments).forEach(([deparment, subjects]) => {
 		const professors = new Set();
+		console.log(subjects);
 
 		subjects.forEach(({ groups }) => {
 			groups.forEach(({ teacher }) => {
@@ -10,10 +11,7 @@ function professorsByDeparment(subjectsByDepartments) {
 			});
 		});
 
-		professorsByDeparment.push({
-			deparment,
-			professors: [...professors],
-		});
+		professorsByDeparment[deparment] = [...professors];
 	});
 
 	return professorsByDeparment;

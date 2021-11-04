@@ -29,7 +29,8 @@ const cleanSubjects = (route) => {
 			.flat()
 	);
 
-	const subjectsFilteredByDepament = subjectsByDeparments.map((subjetsByDeparment, i) => {
+	const subjectsByDeparment = {};
+	subjectsByDeparments.forEach((subjetsByDeparment, i) => {
 		const repeatedGroups = new Set();
 		const filteredSubjects = subjetsByDeparment.map((subject) => {
 			subject.groups = subject.groups.filter((group) => {
@@ -42,13 +43,10 @@ const cleanSubjects = (route) => {
 			return subject;
 		});
 
-		return {
-			deparment: faculties[i],
-			subjects: filteredSubjects,
-		};
+		subjectsByDeparment[faculties[i]] = filteredSubjects;
 	});
 
-	return subjectsFilteredByDepament;
+	return subjectsByDeparment;
 };
 
 module.exports = { cleanSubjects };
