@@ -1,3 +1,5 @@
+import { Isubject } from "../../shared/interfaces";
+
 interface IdepartementCarrer {
 	code: string;
 	semanticName: string;
@@ -9,22 +11,7 @@ interface IdepartementCarrer {
 interface Icarrer {
 	levels: {
 		code: string;
-		subjects: {
-			code: string;
-			name: string;
-			groups: {
-				code: string;
-				schedule: {
-					day: string;
-					start: string;
-					end: string;
-					duration: number;
-					room: string;
-					teacher: string;
-					isClass: boolean;
-				}[];
-			}[];
-		}[];
+		subjects: Isubject[];
 	}[];
 }
 
