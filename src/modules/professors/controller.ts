@@ -13,20 +13,24 @@ class Controller implements Icontroller {
 		this.service = service;
 	}
 
-	async getAllProfessors(req: Request, res: Response): Promise<Response> {
+	getAllProfessors = async (req: Request, res: Response): Promise<Response> => {
 		const department: string = req.params.department;
 
 		try {
 			const model = await this.service.getAllProfessors(department);
+			console.log(model);
+
 			if (!model) return resourceNotFound(res);
 
 			return successfulRequest(res, model);
 		} catch (error) {
+			console.log(error);
+
 			return clientError(res, "");
 		}
-	}
+	};
 
-	async getProfessorSubjects(req: Request, res: Response): Promise<Response> {
+	getProfessorSubjects = async (req: Request, res: Response): Promise<Response> => {
 		const department: string = req.params.department;
 		const professor: string = req.params.professor;
 
@@ -38,7 +42,7 @@ class Controller implements Icontroller {
 		} catch (error) {
 			return clientError(res, "");
 		}
-	}
+	};
 }
 
 export default Controller;
