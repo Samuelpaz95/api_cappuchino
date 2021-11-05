@@ -18,7 +18,8 @@ class Service implements Iservice {
 	): Promise<Isubject | null> {
 		const professorSubjects = await this.repository.getProfessorSubjects(department);
 		if (professorSubjects == null) return null;
-		return professorSubjects[professor] || null;
+		const formatedProfessor = decodeURI(professor.toLocaleUpperCase());
+		return professorSubjects[formatedProfessor] || null;
 	}
 }
 
