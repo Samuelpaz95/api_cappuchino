@@ -1,4 +1,4 @@
-import { Irepository } from "../interfaces";
+import { Irepository } from "./interfaces";
 
 class Repository implements Irepository {}
 
