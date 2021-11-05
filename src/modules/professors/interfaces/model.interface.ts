@@ -1,0 +1,3 @@
+interface Imodel {}
+
+export { Imodel };
