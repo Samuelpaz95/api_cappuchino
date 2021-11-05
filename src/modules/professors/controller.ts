@@ -18,14 +18,10 @@ class Controller implements Icontroller {
 
 		try {
 			const model = await this.service.getAllProfessors(department);
-			console.log(model);
-
 			if (!model) return resourceNotFound(res);
 
 			return successfulRequest(res, model);
 		} catch (error) {
-			console.log(error);
-
 			return clientError(res, "");
 		}
 	};
