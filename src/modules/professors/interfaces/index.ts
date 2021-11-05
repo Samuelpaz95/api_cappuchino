@@ -1,3 +1,3 @@
 export { Icontroller } from "./controller.interface";
-export { Imodel } from "./model.interface";
+export { Iservice } from "./service.interface";
 export { Irepository } from "./repository.interface";

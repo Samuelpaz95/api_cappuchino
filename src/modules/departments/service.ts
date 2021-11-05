@@ -3,10 +3,10 @@ import {
 	Irepository,
 	Idepartment,
 	IdepartementCarrer,
-	Imodel,
+	Iservice,
 } from "./interfaces";
 
-class Model implements Imodel {
+class Service implements Iservice {
 	private repository: Irepository;
 
 	constructor(repository: Irepository) {
@@ -31,4 +31,4 @@ class Model implements Imodel {
 	}
 }
 
-export default Model;
+export default Service;

@@ -1,7 +1,7 @@
 import { Express } from "express";
 
 import Controller from "./controller";
-import Model from "./model";
+import Service from "./service";
 import Repository from "./repository";
 import Routes from "./routes";
 
@@ -10,8 +10,8 @@ export class Module {
 
 	constructor(app: Express) {
 		const repository = new Repository();
-		const model = new Model(repository);
-		const controller = new Controller(model);
+		const service = new Service(repository);
+		const controller = new Controller(service);
 		this.routes = new Routes(app, controller);
 	}
 }

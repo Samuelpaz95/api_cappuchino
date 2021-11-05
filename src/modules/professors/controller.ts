@@ -1,11 +1,11 @@
 import { Request, Response } from "express";
-import { Icontroller, Imodel } from "./interfaces";
+import { Icontroller, Iservice } from "./interfaces";
 
 class Controller implements Icontroller {
-	private model: Imodel;
+	private service: Iservice;
 
-	constructor(model: Imodel) {
-		this.model = model;
+	constructor(service: Iservice) {
+		this.service = service;
 	}
 }
 

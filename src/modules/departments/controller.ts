@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { Imodel, Icontroller } from "./interfaces";
+import { Iservice, Icontroller } from "./interfaces";
 import {
 	clientError,
 	resourceNotFound,
@@ -7,15 +7,15 @@ import {
 } from "../../utils/handlerHttpRequest";
 
 class Controller implements Icontroller {
-	private model: Imodel;
+	private service: Iservice;
 
-	constructor(model: Imodel) {
-		this.model = model;
+	constructor(service: Iservice) {
+		this.service = service;
 	}
 
 	getInfoDeparments = async (_: Request, res: Response): Promise<Response> => {
 		try {
-			const model = await this.model.getDepartments();
+			const model = await this.service.getDepartments();
 			if (!model) return resourceNotFound(res);
 
 			return successfulRequest(res, model);
@@ -29,7 +29,7 @@ class Controller implements Icontroller {
 		const carrer: string = req.params.carrer;
 
 		try {
-			const model = await this.model.getDepartmentCarrer(department, carrer);
+			const model = await this.service.getDepartmentCarrer(department, carrer);
 			if (!model) return resourceNotFound(res);
 
 			return successfulRequest(res, model);
@@ -42,7 +42,7 @@ class Controller implements Icontroller {
 		const department: string = req.params.department;
 
 		try {
-			const model = await this.model.getDepartmentCarrers(department);
+			const model = await this.service.getDepartmentCarrers(department);
 			if (!model) return resourceNotFound(res);
 
 			return successfulRequest(res, model);

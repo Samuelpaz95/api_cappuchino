@@ -1,0 +1,3 @@
+interface Iservice {}
+
+export { Iservice };

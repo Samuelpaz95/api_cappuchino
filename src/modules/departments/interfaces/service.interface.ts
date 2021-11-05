@@ -1,6 +1,6 @@
 import { Icarrer, IdepartementCarrer, Idepartment } from "./app.interface";
 
-interface Imodel {
+interface Iservice {
 	getDepartments(): Promise<Idepartment[]>;
 
 	getDepartmentCarrer(department: string, carrer: string): Promise<Icarrer | null>;
@@ -8,4 +8,4 @@ interface Imodel {
 	getDepartmentCarrers(department: string): Promise<IdepartementCarrer[] | null>;
 }
 
-export { Imodel };
+export { Iservice };

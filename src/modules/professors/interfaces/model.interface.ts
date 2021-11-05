@@ -1,3 +1,0 @@
-interface Imodel {}
-
-export { Imodel };
