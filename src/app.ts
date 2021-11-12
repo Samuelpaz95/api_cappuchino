@@ -3,8 +3,6 @@ import cors from "cors";
 import router from "./router";
 import path from "path";
 
-import morgan from "morgan";
-
 class App {
 	private port = process.env.PORT || 5000;
 	private app: Express = express();
@@ -17,7 +15,9 @@ class App {
 	async initServer() {
 		try {
 			this.app.use(express.static(path.join(__dirname, "../public")));
-			this.app.listen(this.port, () => console.log(`Listening on http://${"localhost"}:${this.port}/`));
+			this.app.listen(this.port, () =>
+				console.log(`Listening on http://${"localhost"}:${this.port}/`)
+			);
 		} catch (error) {
 			console.error(error);
 		}
@@ -27,7 +27,10 @@ class App {
 		this.app.use(cors());
 		this.app.use(express.json());
 		this.app.use(express.urlencoded({ extended: false }));
-		if (process.env.NODE_ENV !== "production") this.app.use(morgan("dev"));
+		if (process.env.NODE_ENV !== "production") {
+			const morgan = require("morgan");
+			this.app.use(morgan("dev"));
+		}
 	}
 
 	private initRoutes() {
