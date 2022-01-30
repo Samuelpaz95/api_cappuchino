@@ -28,7 +28,7 @@ class App {
 		this.app.use(cors());
 		this.app.use(express.json());
 		this.app.use(express.urlencoded({ extended: false }));
-		this.app.use(helmet);
+		this.app.use(helmet());
 		if (process.env.NODE_ENV !== "production") {
 			const morgan = require("morgan");
 			this.app.use(morgan("dev"));
