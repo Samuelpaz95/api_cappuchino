@@ -87,6 +87,25 @@ export const takeScreenshotPuppeteer = async (
                 min-width: 50px;
             }
 
+            .schedule-table-header__content {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+    
+            .schedule-table-header__icons {
+                margin-right: 1rem;
+            }
+
+            .button-icon {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: inherit;
+                border: none;
+                color: inherit;
+            }
+
             //  .schedule-table-header__header th:first-child {
             //      border-left: none;
             //  }
