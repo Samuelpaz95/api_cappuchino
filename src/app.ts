@@ -2,6 +2,7 @@ import express, { Express } from "express";
 import cors from "cors";
 import router from "./router";
 import path from "path";
+import helmet from "helmet";
 
 class App {
 	private port = process.env.PORT || 5000;
@@ -27,10 +28,13 @@ class App {
 		this.app.use(cors());
 		this.app.use(express.json());
 		this.app.use(express.urlencoded({ extended: false }));
+		this.app.use(helmet);
 		if (process.env.NODE_ENV !== "production") {
 			const morgan = require("morgan");
 			this.app.use(morgan("dev"));
 		}
+
+		this.app.disable("x-powered-by");
 	}
 
 	private initRoutes() {
