@@ -36,6 +36,10 @@ export const takeScreenshotPuppeteer = async (
                 font-family: "Open Sans", sans-serif;
             }
 
+            table caption {
+                display: none
+            }
+
             h1, h2, h3, h4, h5, h6, caption {
                 font-family: "Allerta Stencil", sans-serif;
             }
