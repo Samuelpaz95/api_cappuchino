@@ -4,7 +4,9 @@ export const takeScreenshotPuppeteer = async (
 	scheduleTableHtml: string,
 	selector: string = "hola"
 ) => {
-	const browser = await puppeteer.launch();
+	const browser = await puppeteer.launch({
+		args: ["--no-sandbox", "--disable-setuid-sandbox"],
+	});
 	const page = await browser.newPage();
 	await page.setViewport({
 		width: 1500,
