@@ -17,7 +17,7 @@ class Controller implements sharedController {
 
 			return successfulRequestImage(res, image);
 		} catch (error) {
-			return clientError(res, "");
+			return clientError(res, error);
 		}
 	};
 }

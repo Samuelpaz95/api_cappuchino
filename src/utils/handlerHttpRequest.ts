@@ -1,7 +1,6 @@
 import { Response } from "express";
 
-export const clientError = (res: Response, message: string) =>
-	res.status(422).json({ message });
+export const clientError = (res: Response, error: unknown) => res.status(422).json(error);
 
 export const resourceNotFound = (res: Response) =>
 	res.status(404).json({ message: "Resource not found" });
