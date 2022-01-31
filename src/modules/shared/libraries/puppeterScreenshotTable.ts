@@ -1,8 +1,10 @@
 import puppeteer from "puppeteer";
 
+const SELECTOR = "hola";
+
 export const takeScreenshotPuppeteer = async (
 	scheduleTableHtml: string,
-	selector: string = "hola"
+	cssVariables: string
 ) => {
 	const browser = await puppeteer.launch({
 		args: ["--no-sandbox", "--disable-setuid-sandbox"],
@@ -22,31 +24,12 @@ export const takeScreenshotPuppeteer = async (
             >
             <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-            // :root {
-            //     --primary-color: #252836;
-            //     --secondary-color: #FD6564;
-            //     --background-color: #1F1D2B;
-            //     --font-color: #D6D7D8;
-            //     --contrast-font-color: #D6D7D8;
-            //     --transparent-font-color: #D6D7D8;
-            //     --scroll-color: #FD6564;
-            //     --background-footer-color: #252836;
-            // }
-
             * {
                 box-sizing: border-box;
             }
 
             body {
-
-                --primary-color: #252836;
-                --secondary-color: #FD6564;
-                --background-color: #1F1D2B;
-                --font-color: #D6D7D8;
-                --contrast-font-color: #D6D7D8;
-                --transparent-font-color: #D6D7D8;
-                --scroll-color: #FD6564;
-                --background-footer-color: #252836;
+                ${cssVariables}
                 margin: 0;
                 color: var(--font-color);
                 line-height: 37px;
@@ -161,7 +144,7 @@ export const takeScreenshotPuppeteer = async (
 		const element = document.getElementById(selector) || document.createElement("div");
 		const { width, height } = element.getBoundingClientRect();
 		return { height, width };
-	}, selector);
+	}, SELECTOR);
 
 	const image = await page.screenshot({
 		type: "jpeg",

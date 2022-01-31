@@ -11,9 +11,10 @@ class Controller implements sharedController {
 
 	takeScreenshot = async (req: Request, res: Response) => {
 		const contentHtml: string = req.body.contentHtml;
+		const cssVariables: string = req.body.cssVariables;
 
 		try {
-			const image = await this.service.takeScreenshotInBase64(contentHtml);
+			const image = await this.service.takeScreenshotInBase64(contentHtml, cssVariables);
 
 			return successfulRequestImage(res, image);
 		} catch (error) {
