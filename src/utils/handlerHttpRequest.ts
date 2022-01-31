@@ -15,3 +15,6 @@ export const successfulRequestImage = <T>(res: Response, image: T) => {
 
 	return res.send(image);
 };
+
+export const badRequest = (res: Response) =>
+	res.status(400).json({ message: "Bad Request" });

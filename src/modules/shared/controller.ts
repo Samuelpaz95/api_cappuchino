@@ -1,5 +1,9 @@
 import { Request, Response } from "express";
-import { clientError, successfulRequestImage } from "../../utils/handlerHttpRequest";
+import {
+	clientError,
+	successfulRequestImage,
+	badRequest,
+} from "../../utils/handlerHttpRequest";
 import { sharedController, sharedService } from "./interfaces";
 
 class Controller implements sharedController {
@@ -14,6 +18,7 @@ class Controller implements sharedController {
 		const cssVariables: string = req.body.cssVariables;
 
 		try {
+			if (contentHtml && cssVariables) return badRequest(res);
 			const image = await this.service.takeScreenshotInBase64(contentHtml, cssVariables);
 
 			return successfulRequestImage(res, image);
