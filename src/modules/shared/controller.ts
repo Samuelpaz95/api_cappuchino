@@ -18,9 +18,8 @@ class Controller implements sharedController {
 		const cssVariables: string = req.body.cssVariables;
 
 		try {
-			if (contentHtml && cssVariables) return badRequest(res);
+			if (!contentHtml || !cssVariables) return badRequest(res);
 			const image = await this.service.takeScreenshotInBase64(contentHtml, cssVariables);
-
 			return successfulRequestImage(res, image);
 		} catch (error) {
 			return clientError(res, error);
