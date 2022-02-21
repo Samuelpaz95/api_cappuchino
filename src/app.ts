@@ -17,7 +17,7 @@ class App {
 		try {
 			this.app.use(express.static(path.join(__dirname, "../public")));
 			this.app.listen(this.port, () =>
-				console.log(`Listening on http://${"localhost"}:${this.port}/`)
+				console.log(`Listening on http://localhost:${this.port}/`)
 			);
 		} catch (error) {
 			console.error(error);
@@ -25,7 +25,7 @@ class App {
 	}
 
 	private config() {
-		this.app.use(cors());
+		this.app.use(cors({ origin: process.env.FRONTEND_APP, optionsSuccessStatus: 200 }));
 		this.app.use(express.json());
 		this.app.use(express.urlencoded({ extended: false }));
 		this.app.use(helmet());
