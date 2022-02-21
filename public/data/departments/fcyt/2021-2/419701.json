@@ -1,0 +1,92 @@
+{
+    "madeIn": "SCESI UMSS",
+    "semester": "2/2021",
+    "support": "@georg",
+    "code": "419701",
+    "name": "LICENCIATURA EN INGENIERIA DE SISTEMAS",
+    "levels": [
+        {
+            "code": "J",
+            "subjects": [
+                {
+                    "code": "2010122",
+                    "name": "PROYECTO FINAL",
+                    "groups": [
+                        {
+                            "code": "2",
+                            "schedule": [
+                                {
+                                    "day": "JU",
+                                    "start": "815",
+                                    "end": "945",
+                                    "duration": 2,
+                                    "room": "INFDEP",
+                                    "teacher": "MONTANO QUIROGA VICTOR HUGO",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "VI",
+                                    "start": "945",
+                                    "end": "1115",
+                                    "duration": 2,
+                                    "room": "INFLAB",
+                                    "teacher": "MONTANO QUIROGA VICTOR HUGO",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "MONTANO QUIROGA VICTOR HUGO"
+                        },
+                        {
+                            "code": "3",
+                            "schedule": [
+                                {
+                                    "day": "MI",
+                                    "start": "815",
+                                    "end": "945",
+                                    "duration": 2,
+                                    "room": "INFDEP",
+                                    "teacher": "GARCIA PEREZ CARMEN ROSA",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "JU",
+                                    "start": "815",
+                                    "end": "945",
+                                    "duration": 2,
+                                    "room": "655",
+                                    "teacher": "GARCIA PEREZ CARMEN ROSA",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "GARCIA PEREZ CARMEN ROSA"
+                        },
+                        {
+                            "code": "4",
+                            "schedule": [
+                                {
+                                    "day": "MA",
+                                    "start": "815",
+                                    "end": "945",
+                                    "duration": 2,
+                                    "room": "690C",
+                                    "teacher": "ROMERO RODRIGUEZ PATRICIA",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MI",
+                                    "start": "1415",
+                                    "end": "1545",
+                                    "duration": 2,
+                                    "room": "617C",
+                                    "teacher": "ROMERO RODRIGUEZ PATRICIA",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "ROMERO RODRIGUEZ PATRICIA"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
