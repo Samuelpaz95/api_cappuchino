@@ -32,17 +32,17 @@
 		"semanticName": "licenciatura_en_ingenieria_de_sistemas_n",
 		"name": "LICENCIATURA EN INGENIERIA DE SISTEMAS (NUEVO)",
 		"madeIn": "SCESI UMSS",
-		"semester": "2021-2"
+		"semester": "2022-1"
 	},
 	{
 		"code": "419701",
 		"semanticName": "licenciatura_en_ingenieria_de_sistemas",
 		"name": "LICENCIATURA EN INGENIERIA DE SISTEMAS",
 		"madeIn": "SCESI UMSS",
-		"semester": "2021-2"
+		"semester": "2022-1"
 	},
 	{
-		"code": "320902",
+		"code": "320901",
 		"semanticName": "licenciatura_en_ingenieria_civil_n",
 		"name": "LICENCIATURA EN INGENIERIA CIVIL (NUEVO)",
 		"madeIn": "SCESI UMSS",
@@ -60,7 +60,7 @@
 		"semanticName": "licenciatura_en_ingenieria_electrica",
 		"name": "LICENCIATURA EN INGENIERIA ELECTRICA",
 		"madeIn": "SCESI UMSS",
-		"semester": "2021-2"
+		"semester": "2022-1"
 	},
 	{
 		"code": "650001",
@@ -74,7 +74,7 @@
 		"semanticName": "licenciatura_en_ingenieria_electronica",
 		"name": "LICENCIATURA EN INGENIERIA ELECTRONICA",
 		"madeIn": "SCESI UMSS",
-		"semester": "2021-2"
+		"semester": "2022-1"
 	},
 	{
 		"code": "309801",
@@ -88,7 +88,7 @@
 		"semanticName": "licenciatura_en_ingenieria_informatica",
 		"name": "LICENCIATURA EN INGENIERIA INFORMATICA",
 		"madeIn": "SCESI UMSS",
-		"semester": "2021-2"
+		"semester": "2022-1"
 	},
 	{
 		"code": "439801",
