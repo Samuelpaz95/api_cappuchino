@@ -1,0 +1,191 @@
+{
+    "madeIn": "SCESI UMSS",
+    "semester": "2/2022",
+    "support": "@georg",
+    "code": "165221",
+    "name": "PROG DE LIC. EN INGENIERIA EN BIOTECNOLOGIA",
+    "levels": [
+        {
+            "code": "A",
+            "subjects": [
+                {
+                    "code": "2002004",
+                    "name": "BIOLOGIA GENERAL",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "1200",
+                                    "end": "1630",
+                                    "duration": 6,
+                                    "room": "608A",
+                                    "teacher": "FERNANDEZ TERRAZAS ERIKA",
+                                    "isClass": false
+                                },
+                                {
+                                    "day": "MI",
+                                    "start": "1415",
+                                    "end": "1545",
+                                    "duration": 2,
+                                    "room": "608",
+                                    "teacher": "FERNANDEZ TERRAZAS ERIKA",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "VI",
+                                    "start": "815",
+                                    "end": "1030",
+                                    "duration": 3,
+                                    "room": "690A",
+                                    "teacher": "FERNANDEZ TERRAZAS ERIKA",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "FERNANDEZ TERRAZAS ERIKA"
+                        }
+                    ]
+                },
+                {
+                    "code": "2004045",
+                    "name": "QUIMICA GENERAL",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "1415",
+                                    "end": "1545",
+                                    "duration": 2,
+                                    "room": "693D",
+                                    "teacher": "ARCE GARCIA OMAR ORLANDO",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MA",
+                                    "start": "1115",
+                                    "end": "1245",
+                                    "duration": 2,
+                                    "room": "623",
+                                    "teacher": "ARCE GARCIA OMAR ORLANDO",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "JU",
+                                    "start": "1115",
+                                    "end": "1245",
+                                    "duration": 2,
+                                    "room": "624",
+                                    "teacher": "ARCE GARCIA OMAR ORLANDO",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "ARCE GARCIA OMAR ORLANDO"
+                        }
+                    ]
+                },
+                {
+                    "code": "2006063",
+                    "name": "FISICA GENERAL",
+                    "groups": [
+                        {
+                            "code": "A",
+                            "schedule": [
+                                {
+                                    "day": "MA",
+                                    "start": "1545",
+                                    "end": "1715",
+                                    "duration": 2,
+                                    "room": "684B",
+                                    "teacher": "CASTRO LAZARTE CECILIA BEATRIZ",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MI",
+                                    "start": "1545",
+                                    "end": "1715",
+                                    "duration": 2,
+                                    "room": "684B",
+                                    "teacher": "CASTRO LAZARTE CECILIA BEATRIZ",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "CASTRO LAZARTE CECILIA BEATRIZ"
+                        },
+                        {
+                            "code": "A1",
+                            "schedule": [
+                                {
+                                    "day": "VI",
+                                    "start": "1115",
+                                    "end": "1245",
+                                    "duration": 2,
+                                    "room": "620",
+                                    "teacher": "VASQUEZ CARRILLO MICHAEL HUASCAR",
+                                    "isClass": false
+                                }
+                            ],
+                            "teacher": "VASQUEZ CARRILLO MICHAEL HUASCAR"
+                        },
+                        {
+                            "code": "A2",
+                            "schedule": [
+                                {
+                                    "day": "JU",
+                                    "start": "1415",
+                                    "end": "1545",
+                                    "duration": 2,
+                                    "room": "620",
+                                    "teacher": "VASQUEZ CARRILLO MICHAEL HUASCAR",
+                                    "isClass": false
+                                }
+                            ],
+                            "teacher": "VASQUEZ CARRILLO MICHAEL HUASCAR"
+                        }
+                    ]
+                },
+                {
+                    "code": "2008159",
+                    "name": "ALGEBRA",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "815",
+                                    "end": "945",
+                                    "duration": 2,
+                                    "room": "690A",
+                                    "teacher": "TAYLOR TERRAZAS DARLONG HOWARD",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MA",
+                                    "start": "1115",
+                                    "end": "1245",
+                                    "duration": 2,
+                                    "room": "692C",
+                                    "teacher": "TAYLOR TERRAZAS DARLONG HOWARD",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MI",
+                                    "start": "815",
+                                    "end": "945",
+                                    "duration": 2,
+                                    "room": "690A",
+                                    "teacher": "TAYLOR TERRAZAS DARLONG HOWARD",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "TAYLOR TERRAZAS DARLONG HOWARD"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

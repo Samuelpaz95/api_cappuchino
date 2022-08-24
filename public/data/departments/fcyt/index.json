@@ -12,16 +12,16 @@
     "code": "760101",
     "name": "LICENCIATURA EN DIDACTICA DE LA FISICA",
     "madeIn": "SCESI UMSS",
-    "semester": "2022-1",
+    "semester": "2021-1",
     "support": "@georg",
-    "path": "2022-01",
+    "path": "2021-01",
     "semanticName": "licenciatura_en_didactica_de_la_fisica"
   },
   {
     "code": "359201",
     "name": "LICENCIATURA EN FISICA",
     "madeIn": "SCESI UMSS",
-    "semester": "2022-1",
+    "semester": "2021-1",
     "support": "@georg",
     "path": "2022-01",
     "semanticName": "licenciatura_en_fisica"
@@ -39,7 +39,7 @@
     "code": "409701",
     "name": "LICENCIATURA EN INGENIERIA DE ALIMENTOS",
     "madeIn": "SCESI UMSS",
-    "semester": "2022-1",
+    "semester": "2021-1",
     "support": "@georg",
     "path": "2022-01",
     "semanticName": "licenciatura_en_ingenieria_de_alimentos"
