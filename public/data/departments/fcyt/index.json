@@ -1,173 +1,146 @@
 [
-	{
-		"code": "399501",
-		"name": "LICENCIATURA EN BIOLOGIA",
-		"madeIn": "SCESI UMSS",
-		"semester": "2022-2",
-		"support": "@georg",
-		"path": "2022-02",
-		"semanticName": "licenciatura_en_biologia"
-	},
-	{
-		"code": "760101",
-		"name": "LICENCIATURA EN DIDACTICA DE LA FISICA",
-		"madeIn": "SCESI UMSS",
-		"semester": "2021-2",
-		"support": "@georg",
-		"path": "2022-02",
-		"semanticName": "licenciatura_en_didactica_de_la_fisica"
-	},
-	{
-		"code": "114071",
-		"name": "LICENCIATURA EN DIDACTICA MATEMATICA",
-		"madeIn": "SCESI UMSS",
-		"semester": "2021-2",
-		"support": "@georg",
-		"path": "2022-02",
-		"semanticName": "licenciatura_en_didactica_matematica"
-	},
-	{
-		"code": "359201",
-		"name": "LICENCIATURA EN FISICA",
-		"madeIn": "SCESI UMSS",
-		"semester": "2021-2",
-		"support": "@georg",
-		"path": "2022-02",
-		"semanticName": "licenciatura_en_fisica"
-	},
-	{
-		"code": "320902",
-		"name": "LICENCIATURA EN INGENIERIA CIVIL (NUEVO)",
-		"madeIn": "SCESI UMSS",
-		"semester": "2023-1",
-		"support": "@georg",
-		"path": "2023-01",
-		"semanticName": "licenciatura_en_ingenieria_civil_n"
-	},
-	{
-		"code": "409701",
-		"name": "LICENCIATURA EN INGENIERIA DE ALIMENTOS",
-		"madeIn": "SCESI UMSS",
-		"semester": "2021-2",
-		"support": "@georg",
-		"path": "2022-02",
-		"semanticName": "licenciatura_en_ingenieria_de_alimentos"
-	},
-	{
-		"code": "419701",
-		"name": "LICENCIATURA EN INGENIERIA DE SISTEMAS",
-		"madeIn": "SCESI UMSS",
-		"semester": "2023-1",
-		"support": "@georg",
-		"path": "2023-01",
-		"semanticName": "licenciatura_en_ingenieria_de_sistemas"
-	},
-	{
-		"code": "411702",
-		"name": "LICENCIATURA EN INGENIERIA DE SISTEMAS N",
-		"madeIn": "SCESI UMSS",
-		"semester": "2023-1",
-		"support": "@georg",
-		"path": "2023-01",
-		"semanticName": "licenciatura_en_ingenieria_de_sistemas_n"
-	},
-	{
-		"code": "299701",
-		"name": "LICENCIATURA EN INGENIERIA ELECTRICA",
-		"madeIn": "SCESI UMSS",
-		"semester": "2023-1",
-		"support": "@georg",
-		"path": "2023-01",
-		"semanticName": "licenciatura_en_ingenieria_electrica"
-	},
-	{
-		"code": "650001",
-		"name": "LICENCIATURA EN INGENIERIA ELECTROMECANICA",
-		"madeIn": "SCESI UMSS",
-		"semester": "2023-1",
-		"support": "@georg",
-		"path": "2023-01",
-		"semanticName": "licenciatura_en_ingenieria_electromecanica"
-	},
-	{
-		"code": "429701",
-		"name": "LICENCIATURA EN INGENIERIA ELECTRONICA",
-		"madeIn": "SCESI UMSS",
-		"semester": "2023-1",
-		"support": "@georg",
-		"path": "2023-01",
-		"semanticName": "licenciatura_en_ingenieria_electronica"
-	},
-	{
-		"code": "309801",
-		"name": "LICENCIATURA EN INGENIERIA INDUSTRIAL",
-		"madeIn": "SCESI UMSS",
-		"semester": "2023-1",
-		"support": "@georg",
-		"path": "2023-01",
-		"semanticName": "licenciatura_en_ingenieria_industrial"
-	},
-	{
-		"code": "134111",
-		"name": "LICENCIATURA EN INGENIERIA INFORMATICA",
-		"madeIn": "SCESI UMSS",
-		"semester": "2023-1",
-		"support": "@georg",
-		"path": "2023-01",
-		"semanticName": "licenciatura_en_ingenieria_informatica"
-	},
-	{
-		"code": "439801",
-		"name": "LICENCIATURA EN INGENIERIA MATEMATICA",
-		"madeIn": "SCESI UMSS",
-		"semester": "2021-2",
-		"support": "@georg",
-		"path": "2022-02",
-		"semanticName": "licenciatura_en_ingenieria_matematica"
-	},
-	{
-		"code": "319801",
-		"name": "LICENCIATURA EN INGENIERIA MECANICA",
-		"madeIn": "SCESI UMSS",
-		"semester": "2023-1",
-		"support": "@georg",
-		"path": "2023-01",
-		"semanticName": "licenciatura_en_ingenieria_mecanica"
-	},
-	{
-		"code": "339701",
-		"name": "LICENCIATURA EN INGENIERIA QUIMICA",
-		"madeIn": "SCESI UMSS",
-		"semester": "2023-1",
-		"support": "@georg",
-		"path": "2023-01",
-		"semanticName": "licenciatura_en_ingenieria_quimica"
-	},
-	{
-		"code": "349701",
-		"name": "LICENCIATURA EN MATEMATICAS",
-		"madeIn": "SCESI UMSS",
-		"semester": "2021-2",
-		"support": "@georg",
-		"path": "2022-02",
-		"semanticName": "licenciatura_en_matematicas"
-	},
-	{
-		"code": "389701",
-		"name": "LICENCIATURA EN QUIMICA",
-		"madeIn": "SCESI UMSS",
-		"semester": "2023-1",
-		"support": "@georg",
-		"path": "2023-01",
-		"semanticName": "licenciatura_en_quimica"
-	},
-	{
-		"code": "165221",
-		"name": "PROG DE LIC. EN INGENIERIA EN BIOTECNOLOGIA",
-		"madeIn": "SCESI UMSS",
-		"semester": "2022-2",
-		"support": "@georg",
-		"path": "2022-02",
-		"semanticName": "prog_de_lic._en_ingenieria_en_biotecnologia"
-	}
+  {
+    "code": "399501",
+    "name": "LICENCIATURA EN BIOLOGIA",
+    "madeIn": "SCESI UMSS",
+    "semester": "2022-2",
+    "support": "@georg",
+    "path": "2022-02",
+    "semanticName": "licenciatura_en_biologia"
+  },
+  {
+    "code": "760101",
+    "name": "LICENCIATURA EN DIDACTICA DE LA FISICA",
+    "madeIn": "SCESI UMSS",
+    "semester": "2021-1",
+    "support": "@georg",
+    "path": "2021-01",
+    "semanticName": "licenciatura_en_didactica_de_la_fisica"
+  },
+  {
+    "code": "359201",
+    "name": "LICENCIATURA EN FISICA",
+    "madeIn": "SCESI UMSS",
+    "semester": "2021-1",
+    "support": "@georg",
+    "path": "2022-01",
+    "semanticName": "licenciatura_en_fisica"
+  },
+  {
+    "code": "320902",
+    "name": "LICENCIATURA EN INGENIERIA CIVIL (NUEVO)",
+    "madeIn": "SCESI UMSS",
+    "semester": "2022-2",
+    "support": "@georg",
+    "path": "2022-02",
+    "semanticName": "licenciatura_en_ingenieria_civil_n"
+  },
+  {
+    "code": "409701",
+    "name": "LICENCIATURA EN INGENIERIA DE ALIMENTOS",
+    "madeIn": "SCESI UMSS",
+    "semester": "2021-1",
+    "support": "@georg",
+    "path": "2022-01",
+    "semanticName": "licenciatura_en_ingenieria_de_alimentos"
+  },
+  {
+    "code": "419701",
+    "name": "LICENCIATURA EN INGENIERIA DE SISTEMAS",
+    "madeIn": "SCESI UMSS",
+    "semester": "2022-2",
+    "support": "@georg",
+    "path": "2022-02",
+    "semanticName": "licenciatura_en_ingenieria_de_sistemas"
+  },
+  {
+    "code": "411702",
+    "name": "LICENCIATURA EN INGENIERIA DE SISTEMAS N",
+    "madeIn": "SCESI UMSS",
+    "semester": "2022-2",
+    "support": "@georg",
+    "path": "2022-02",
+    "semanticName": "licenciatura_en_ingenieria_de_sistemas_n"
+  },
+  {
+    "code": "299701",
+    "name": "LICENCIATURA EN INGENIERIA ELECTRICA",
+    "madeIn": "SCESI UMSS",
+    "semester": "2022-2",
+    "support": "@georg",
+    "path": "2022-02",
+    "semanticName": "licenciatura_en_ingenieria_electrica"
+  },
+  {
+    "code": "650001",
+    "name": "LICENCIATURA EN INGENIERIA ELECTROMECANICA",
+    "madeIn": "SCESI UMSS",
+    "semester": "2022-2",
+    "support": "@georg",
+    "path": "2022-02",
+    "semanticName": "licenciatura_en_ingenieria_electromecanica"
+  },
+  {
+    "code": "429701",
+    "name": "LICENCIATURA EN INGENIERIA ELECTRONICA",
+    "madeIn": "SCESI UMSS",
+    "semester": "2022-2",
+    "support": "@georg",
+    "path": "2022-02",
+    "semanticName": "licenciatura_en_ingenieria_electronica"
+  },
+  {
+    "code": "309801",
+    "name": "LICENCIATURA EN INGENIERIA INDUSTRIAL",
+    "madeIn": "SCESI UMSS",
+    "semester": "2022-2",
+    "support": "@georg",
+    "path": "2022-02",
+    "semanticName": "licenciatura_en_ingenieria_industrial"
+  },
+  {
+    "code": "134111",
+    "name": "LICENCIATURA EN INGENIERIA INFORMATICA",
+    "madeIn": "SCESI UMSS",
+    "semester": "2022-2",
+    "support": "@georg",
+    "path": "2022-02",
+    "semanticName": "licenciatura_en_ingenieria_informatica"
+  },
+  {
+    "code": "319801",
+    "name": "LICENCIATURA EN INGENIERIA MECANICA",
+    "madeIn": "SCESI UMSS",
+    "semester": "2022-2",
+    "support": "@georg",
+    "path": "2022-02",
+    "semanticName": "licenciatura_en_ingenieria_mecanica"
+  },
+  {
+    "code": "339701",
+    "name": "LICENCIATURA EN INGENIERIA QUIMICA",
+    "madeIn": "SCESI UMSS",
+    "semester": "2022-2",
+    "support": "@georg",
+    "path": "2022-02",
+    "semanticName": "licenciatura_en_ingenieria_quimica"
+  },
+  {
+    "code": "389701",
+    "name": "LICENCIATURA EN QUIMICA",
+    "madeIn": "SCESI UMSS",
+    "semester": "2022-2",
+    "support": "@georg",
+    "path": "2022-02",
+    "semanticName": "licenciatura_en_quimica"
+  },
+  {
+    "code": "165221",
+    "name": "PROG DE LIC. EN INGENIERIA EN BIOTECNOLOGIA",
+    "madeIn": "SCESI UMSS",
+    "semester": "2022-2",
+    "support": "@georg",
+    "path": "2022-02",
+    "semanticName": "prog_de_lic._en_ingenieria_en_biotecnologia"
+  }
 ]
