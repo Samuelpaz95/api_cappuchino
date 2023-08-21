@@ -1,0 +1,1658 @@
+{
+    "madeIn": "SCESI UMSS",
+    "semester": "2/2022",
+    "support": "@georg",
+    "code": "399501",
+    "name": "LICENCIATURA EN BIOLOGIA",
+    "levels": [
+        {
+            "code": "A",
+            "subjects": [
+                {
+                    "code": "1803013",
+                    "name": "INGLES",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "MI",
+                                    "start": "645",
+                                    "end": "815",
+                                    "duration": 2,
+                                    "room": "690A",
+                                    "teacher": "CESPEDES GUIZADA MARIA BENITA",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "JU",
+                                    "start": "645",
+                                    "end": "815",
+                                    "duration": 2,
+                                    "room": "608B",
+                                    "teacher": "CESPEDES GUIZADA MARIA BENITA",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "CESPEDES GUIZADA MARIA BENITA"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002004",
+                    "name": "BIOLOGIA GENERAL",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "1200",
+                                    "end": "1630",
+                                    "duration": 6,
+                                    "room": "608A",
+                                    "teacher": "FERNANDEZ TERRAZAS ERIKA",
+                                    "isClass": false
+                                },
+                                {
+                                    "day": "MI",
+                                    "start": "1415",
+                                    "end": "1545",
+                                    "duration": 2,
+                                    "room": "608",
+                                    "teacher": "FERNANDEZ TERRAZAS ERIKA",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "VI",
+                                    "start": "815",
+                                    "end": "1030",
+                                    "duration": 3,
+                                    "room": "690A",
+                                    "teacher": "FERNANDEZ TERRAZAS ERIKA",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "FERNANDEZ TERRAZAS ERIKA"
+                        }
+                    ]
+                },
+                {
+                    "code": "2004163",
+                    "name": "QUIMICA GENERAL",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "MA",
+                                    "start": "815",
+                                    "end": "1030",
+                                    "duration": 3,
+                                    "room": "614",
+                                    "teacher": "ALFARO DENUS GONZALO",
+                                    "isClass": false
+                                },
+                                {
+                                    "day": "JU",
+                                    "start": "945",
+                                    "end": "1200",
+                                    "duration": 3,
+                                    "room": "608B",
+                                    "teacher": "ROJAS CESPEDES JENNY",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "ROJAS CESPEDES JENNY"
+                        }
+                    ]
+                },
+                {
+                    "code": "2006063",
+                    "name": "FISICA GENERAL",
+                    "groups": [
+                        {
+                            "code": "A",
+                            "schedule": [
+                                {
+                                    "day": "MA",
+                                    "start": "1545",
+                                    "end": "1715",
+                                    "duration": 2,
+                                    "room": "684B",
+                                    "teacher": "CASTRO LAZARTE CECILIA BEATRIZ",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MI",
+                                    "start": "1545",
+                                    "end": "1715",
+                                    "duration": 2,
+                                    "room": "684B",
+                                    "teacher": "CASTRO LAZARTE CECILIA BEATRIZ",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "CASTRO LAZARTE CECILIA BEATRIZ"
+                        },
+                        {
+                            "code": "A1",
+                            "schedule": [
+                                {
+                                    "day": "VI",
+                                    "start": "1115",
+                                    "end": "1245",
+                                    "duration": 2,
+                                    "room": "620",
+                                    "teacher": "VASQUEZ CARRILLO MICHAEL HUASCAR",
+                                    "isClass": false
+                                }
+                            ],
+                            "teacher": "VASQUEZ CARRILLO MICHAEL HUASCAR"
+                        },
+                        {
+                            "code": "A2",
+                            "schedule": [
+                                {
+                                    "day": "JU",
+                                    "start": "1415",
+                                    "end": "1545",
+                                    "duration": 2,
+                                    "room": "620",
+                                    "teacher": "VASQUEZ CARRILLO MICHAEL HUASCAR",
+                                    "isClass": false
+                                }
+                            ],
+                            "teacher": "VASQUEZ CARRILLO MICHAEL HUASCAR"
+                        }
+                    ]
+                },
+                {
+                    "code": "2008159",
+                    "name": "ALGEBRA",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "815",
+                                    "end": "945",
+                                    "duration": 2,
+                                    "room": "690A",
+                                    "teacher": "TAYLOR TERRAZAS DARLONG HOWARD",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MA",
+                                    "start": "1115",
+                                    "end": "1245",
+                                    "duration": 2,
+                                    "room": "692C",
+                                    "teacher": "TAYLOR TERRAZAS DARLONG HOWARD",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MI",
+                                    "start": "815",
+                                    "end": "945",
+                                    "duration": 2,
+                                    "room": "690A",
+                                    "teacher": "TAYLOR TERRAZAS DARLONG HOWARD",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "TAYLOR TERRAZAS DARLONG HOWARD"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "B",
+            "subjects": [
+                {
+                    "code": "2002005",
+                    "name": "BIOLOGIA CELULAR Y MOLECULAR",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "MI",
+                                    "start": "1415",
+                                    "end": "1630",
+                                    "duration": 3,
+                                    "room": "609A",
+                                    "teacher": "GARCIA ORELLANA ANA LINETH",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "VI",
+                                    "start": "815",
+                                    "end": "1030",
+                                    "duration": 3,
+                                    "room": "608A",
+                                    "teacher": "GARCIA ORELLANA ANA LINETH",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "GARCIA ORELLANA ANA LINETH"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002006",
+                    "name": "BIOFISICA",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "MA",
+                                    "start": "1415",
+                                    "end": "1630",
+                                    "duration": 3,
+                                    "room": "608",
+                                    "teacher": "DE LA BARRA RICALDEZ NELLY",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "JU",
+                                    "start": "1415",
+                                    "end": "1630",
+                                    "duration": 3,
+                                    "room": "608A",
+                                    "teacher": "DE LA BARRA RICALDEZ NELLY",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "DE LA BARRA RICALDEZ NELLY"
+                        }
+                    ]
+                },
+                {
+                    "code": "2004091",
+                    "name": "FISICOQUIMICA",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "MI",
+                                    "start": "2015",
+                                    "end": "2145",
+                                    "duration": 2,
+                                    "room": "692H",
+                                    "teacher": "MOREIRA ROSAS BORIS ARTURO",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "JU",
+                                    "start": "1715",
+                                    "end": "1845",
+                                    "duration": 2,
+                                    "room": "652",
+                                    "teacher": "MOREIRA ROSAS BORIS ARTURO",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "VI",
+                                    "start": "1545",
+                                    "end": "1715",
+                                    "duration": 2,
+                                    "room": "608B",
+                                    "teacher": "MOREIRA ROSAS BORIS ARTURO",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "MOREIRA ROSAS BORIS ARTURO"
+                        }
+                    ]
+                },
+                {
+                    "code": "2008160",
+                    "name": "CALCULO",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "JU",
+                                    "start": "815",
+                                    "end": "945",
+                                    "duration": 2,
+                                    "room": "617B",
+                                    "teacher": "MOYA ALBARRACIN MARTIN",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "VI",
+                                    "start": "645",
+                                    "end": "815",
+                                    "duration": 2,
+                                    "room": "625C",
+                                    "teacher": "MOYA ALBARRACIN MARTIN",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "SA",
+                                    "start": "645",
+                                    "end": "815",
+                                    "duration": 2,
+                                    "room": "612",
+                                    "teacher": "COCA AVILES BLADIMIR",
+                                    "isClass": false
+                                }
+                            ],
+                            "teacher": "MOYA ALBARRACIN MARTIN"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "C",
+            "subjects": [
+                {
+                    "code": "2002007",
+                    "name": "HISTOLOGIA ANIMAL COMPARADA",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "645",
+                                    "end": "815",
+                                    "duration": 2,
+                                    "room": "609A",
+                                    "teacher": "SAHONERO IRAHOLA RICARDO",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MI",
+                                    "start": "645",
+                                    "end": "815",
+                                    "duration": 2,
+                                    "room": "608A",
+                                    "teacher": "SAHONERO IRAHOLA RICARDO",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MI",
+                                    "start": "1200",
+                                    "end": "1330",
+                                    "duration": 2,
+                                    "room": "608B",
+                                    "teacher": "SAHONERO IRAHOLA RICARDO",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "SAHONERO IRAHOLA RICARDO"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002008",
+                    "name": "MORFOLOGIA Y ANATOMIA VEGETAL",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "1200",
+                                    "end": "1330",
+                                    "duration": 2,
+                                    "room": "608B",
+                                    "teacher": "ANTEZANA VALERA CAROLA FATIMA",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MA",
+                                    "start": "1200",
+                                    "end": "1415",
+                                    "duration": 3,
+                                    "room": "608A",
+                                    "teacher": "ANTEZANA VALERA CAROLA FATIMA",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "VI",
+                                    "start": "1115",
+                                    "end": "1330",
+                                    "duration": 3,
+                                    "room": "606",
+                                    "teacher": "ANTEZANA VALERA CAROLA FATIMA",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "ANTEZANA VALERA CAROLA FATIMA"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002009",
+                    "name": "ZOOLOGIA DE INVERTEBRADOS",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "945",
+                                    "end": "1200",
+                                    "duration": 3,
+                                    "room": "690A",
+                                    "teacher": "DEL CASTILLO ANTEZANA MARITHZA",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "JU",
+                                    "start": "1200",
+                                    "end": "1415",
+                                    "duration": 3,
+                                    "room": "609A",
+                                    "teacher": "DEL CASTILLO ANTEZANA MARITHZA",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "DEL CASTILLO ANTEZANA MARITHZA"
+                        }
+                    ]
+                },
+                {
+                    "code": "2004092",
+                    "name": "QUIMICA ORGANICA",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "MA",
+                                    "start": "815",
+                                    "end": "1030",
+                                    "duration": 3,
+                                    "room": "615",
+                                    "teacher": "MUNOZ QUISPE VLADIMIR FELIX",
+                                    "isClass": false
+                                },
+                                {
+                                    "day": "VI",
+                                    "start": "900",
+                                    "end": "1115",
+                                    "duration": 3,
+                                    "room": "608",
+                                    "teacher": "VILASECA GAMARRA LUIS ANTONIO",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "VILASECA GAMARRA LUIS ANTONIO"
+                        }
+                    ]
+                },
+                {
+                    "code": "2008161",
+                    "name": "BIOESTADISTICA",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "MI",
+                                    "start": "815",
+                                    "end": "945",
+                                    "duration": 2,
+                                    "room": "617C",
+                                    "teacher": "OMONTE OJALVO JOSE ROBERTO",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "JU",
+                                    "start": "945",
+                                    "end": "1115",
+                                    "duration": 2,
+                                    "room": "652",
+                                    "teacher": "OMONTE OJALVO JOSE ROBERTO",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "VI",
+                                    "start": "1715",
+                                    "end": "1845",
+                                    "duration": 2,
+                                    "room": "692H",
+                                    "teacher": "OMONTE OJALVO JOSE ROBERTO",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "OMONTE OJALVO JOSE ROBERTO"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "D",
+            "subjects": [
+                {
+                    "code": "2002010",
+                    "name": "EMBRIOLOGIA COMPARADA",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "1200",
+                                    "end": "1330",
+                                    "duration": 2,
+                                    "room": "609A",
+                                    "teacher": "SAHONERO IRAHOLA RICARDO",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "LU",
+                                    "start": "1845",
+                                    "end": "2015",
+                                    "duration": 2,
+                                    "room": "609A",
+                                    "teacher": "SAHONERO IRAHOLA RICARDO",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MA",
+                                    "start": "645",
+                                    "end": "815",
+                                    "duration": 2,
+                                    "room": "608",
+                                    "teacher": "SAHONERO IRAHOLA RICARDO",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "SAHONERO IRAHOLA RICARDO"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002011",
+                    "name": "SISTEMATICA DE CRIPTOGAMAS",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "945",
+                                    "end": "1200",
+                                    "duration": 3,
+                                    "room": "608A",
+                                    "teacher": "FERNANDEZ TERRAZAS ERIKA",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MI",
+                                    "start": "1630",
+                                    "end": "1845",
+                                    "duration": 3,
+                                    "room": "609",
+                                    "teacher": "FERNANDEZ TERRAZAS ERIKA",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "FERNANDEZ TERRAZAS ERIKA"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002012",
+                    "name": "ARTROPODOLOGIA",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "1630",
+                                    "end": "1845",
+                                    "duration": 3,
+                                    "room": "608",
+                                    "teacher": "GARCIA ORELLANA ANA LINETH",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "VI",
+                                    "start": "1030",
+                                    "end": "1245",
+                                    "duration": 3,
+                                    "room": "609A",
+                                    "teacher": "GARCIA ORELLANA ANA LINETH",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "GARCIA ORELLANA ANA LINETH"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002013",
+                    "name": "GEOLOGIA-EDAFOLOGIA",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "1330",
+                                    "end": "1545",
+                                    "duration": 3,
+                                    "room": "690A",
+                                    "teacher": "GOITIA ARZE LESLIE EDGAR",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MA",
+                                    "start": "945",
+                                    "end": "1200",
+                                    "duration": 3,
+                                    "room": "608",
+                                    "teacher": "GOITIA ARZE LESLIE EDGAR",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "GOITIA ARZE LESLIE EDGAR"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002014",
+                    "name": "BIOQUIMICA",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "MA",
+                                    "start": "1415",
+                                    "end": "1630",
+                                    "duration": 3,
+                                    "room": "609A",
+                                    "teacher": "RIVERO LUJAN MIRTHA JUDITH",
+                                    "isClass": false
+                                },
+                                {
+                                    "day": "MI",
+                                    "start": "1930",
+                                    "end": "2145",
+                                    "duration": 3,
+                                    "room": "608A",
+                                    "teacher": "BRUCKNER BAZOBERRY MARIA LIDIA",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "JU",
+                                    "start": "1930",
+                                    "end": "2100",
+                                    "duration": 2,
+                                    "room": "608B",
+                                    "teacher": "BRUCKNER BAZOBERRY MARIA LIDIA",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "BRUCKNER BAZOBERRY MARIA LIDIA"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "E",
+            "subjects": [
+                {
+                    "code": "2002015",
+                    "name": "ANATOMIA COMPARADA",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "1630",
+                                    "end": "1845",
+                                    "duration": 3,
+                                    "room": "609A",
+                                    "teacher": "CAHILL MANGUDO JENNIFER ROSA",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MA",
+                                    "start": "1630",
+                                    "end": "1845",
+                                    "duration": 3,
+                                    "room": "690A",
+                                    "teacher": "CAHILL MANGUDO JENNIFER ROSA",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "CAHILL MANGUDO JENNIFER ROSA"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002016",
+                    "name": "SISTEMATICA DE FANEROGAMAS",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "945",
+                                    "end": "1200",
+                                    "duration": 3,
+                                    "room": "HERBARI",
+                                    "teacher": "ARRAZOLA RIVERO SILVIA SUSANA",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MA",
+                                    "start": "945",
+                                    "end": "1200",
+                                    "duration": 3,
+                                    "room": "HERBARI",
+                                    "teacher": "ARRAZOLA RIVERO SILVIA SUSANA",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "ARRAZOLA RIVERO SILVIA SUSANA"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002017",
+                    "name": "FISIOLOGIA DE INVERTEBRADOS",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "MI",
+                                    "start": "945",
+                                    "end": "1200",
+                                    "duration": 3,
+                                    "room": "690A",
+                                    "teacher": "NAVARRO ANTEZANA FREDDY",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "JU",
+                                    "start": "815",
+                                    "end": "1030",
+                                    "duration": 3,
+                                    "room": "609A",
+                                    "teacher": "NAVARRO ANTEZANA FREDDY",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "NAVARRO ANTEZANA FREDDY"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002018",
+                    "name": "BIOCLIMATOLOGIA-HIDROLOGIA",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "1415",
+                                    "end": "1630",
+                                    "duration": 3,
+                                    "room": "608B",
+                                    "teacher": "FERNANDEZ CALATAYUD MILTON",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MA",
+                                    "start": "1415",
+                                    "end": "1630",
+                                    "duration": 3,
+                                    "room": "608B",
+                                    "teacher": "FERNANDEZ CALATAYUD MILTON",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "FERNANDEZ CALATAYUD MILTON"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002019",
+                    "name": "GENETICA I",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "815",
+                                    "end": "945",
+                                    "duration": 2,
+                                    "room": "608",
+                                    "teacher": "AVILA LARA ALFREDO",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MI",
+                                    "start": "815",
+                                    "end": "945",
+                                    "duration": 2,
+                                    "room": "608",
+                                    "teacher": "AVILA LARA ALFREDO",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "JU",
+                                    "start": "1630",
+                                    "end": "1800",
+                                    "duration": 2,
+                                    "room": "608",
+                                    "teacher": "AVILA LARA ALFREDO",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "AVILA LARA ALFREDO"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "F",
+            "subjects": [
+                {
+                    "code": "2002020",
+                    "name": "FISIOLOGIA VEGETAL",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "1930",
+                                    "end": "2145",
+                                    "duration": 3,
+                                    "room": "608",
+                                    "teacher": "BRUCKNER BAZOBERRY MARIA LIDIA",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MA",
+                                    "start": "1930",
+                                    "end": "2145",
+                                    "duration": 3,
+                                    "room": "608A",
+                                    "teacher": "BRUCKNER BAZOBERRY MARIA LIDIA",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "BRUCKNER BAZOBERRY MARIA LIDIA"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002021",
+                    "name": "ZOOLOGIA DE VERTEBRADOS",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "1415",
+                                    "end": "1630",
+                                    "duration": 3,
+                                    "room": "609A",
+                                    "teacher": "CAHILL MANGUDO JENNIFER ROSA",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MA",
+                                    "start": "1415",
+                                    "end": "1630",
+                                    "duration": 3,
+                                    "room": "608A",
+                                    "teacher": "CAHILL MANGUDO JENNIFER ROSA",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "CAHILL MANGUDO JENNIFER ROSA"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002022",
+                    "name": "ECOLOGIA I",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "945",
+                                    "end": "1200",
+                                    "duration": 3,
+                                    "room": "608",
+                                    "teacher": "MALDONADO MALDONADO MABEL",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MA",
+                                    "start": "945",
+                                    "end": "1200",
+                                    "duration": 3,
+                                    "room": "608B",
+                                    "teacher": "MALDONADO MALDONADO MABEL",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "MALDONADO MALDONADO MABEL"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002023",
+                    "name": "GENETICA II",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "1630",
+                                    "end": "1845",
+                                    "duration": 3,
+                                    "room": "690A",
+                                    "teacher": "AVILA ALBA MARTHA TERESA",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "JU",
+                                    "start": "1415",
+                                    "end": "1630",
+                                    "duration": 3,
+                                    "room": "609",
+                                    "teacher": "AVILA ALBA MARTHA TERESA",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "AVILA ALBA MARTHA TERESA"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002024",
+                    "name": "BACTERIOLOGIA",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "MI",
+                                    "start": "945",
+                                    "end": "1200",
+                                    "duration": 3,
+                                    "room": "608A",
+                                    "teacher": "IRIARTE PU¥A MERCEDES",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "JU",
+                                    "start": "945",
+                                    "end": "1200",
+                                    "duration": 3,
+                                    "room": "MICBIO",
+                                    "teacher": "IRIARTE PU¥A MERCEDES",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "IRIARTE PU¥A MERCEDES"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "G",
+            "subjects": [
+                {
+                    "code": "2002025",
+                    "name": "VIROLOGIA",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "MI",
+                                    "start": "1630",
+                                    "end": "1845",
+                                    "duration": 3,
+                                    "room": "608A",
+                                    "teacher": "ZAPATA SCHULTZE MARIA LOTTY",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "VI",
+                                    "start": "730",
+                                    "end": "945",
+                                    "duration": 3,
+                                    "room": "609A",
+                                    "teacher": "ZAPATA SCHULTZE MARIA LOTTY",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "ZAPATA SCHULTZE MARIA LOTTY"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002026",
+                    "name": "FISIOLOGIA DE VERTEBRADOS",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "945",
+                                    "end": "1200",
+                                    "duration": 3,
+                                    "room": "608B",
+                                    "teacher": "NAVARRO ANTEZANA FREDDY",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MA",
+                                    "start": "730",
+                                    "end": "945",
+                                    "duration": 3,
+                                    "room": "609A",
+                                    "teacher": "NAVARRO ANTEZANA FREDDY",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "NAVARRO ANTEZANA FREDDY"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002027",
+                    "name": "ECOLOGIA II",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "1330",
+                                    "end": "1545",
+                                    "duration": 3,
+                                    "room": "608",
+                                    "teacher": "MALDONADO MALDONADO MABEL",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MI",
+                                    "start": "945",
+                                    "end": "1200",
+                                    "duration": 3,
+                                    "room": "609A",
+                                    "teacher": "MALDONADO MALDONADO MABEL",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "MALDONADO MALDONADO MABEL"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002028",
+                    "name": "DISE¥OS EXPERIMENTALES",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "MA",
+                                    "start": "1630",
+                                    "end": "1845",
+                                    "duration": 3,
+                                    "room": "606",
+                                    "teacher": "PEREZ ZUBIETA JOSE CARLOS",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "JU",
+                                    "start": "1630",
+                                    "end": "1845",
+                                    "duration": 3,
+                                    "room": "609A",
+                                    "teacher": "PEREZ ZUBIETA JOSE CARLOS",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "PEREZ ZUBIETA JOSE CARLOS"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002052",
+                    "name": "DENDROLOGIA",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "JU",
+                                    "start": "1415",
+                                    "end": "1630",
+                                    "duration": 3,
+                                    "room": "608B",
+                                    "teacher": "FERNANDEZ TERRAZAS ERIKA",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "VI",
+                                    "start": "1630",
+                                    "end": "1845",
+                                    "duration": 3,
+                                    "room": "608A",
+                                    "teacher": "FERNANDEZ TERRAZAS ERIKA",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "FERNANDEZ TERRAZAS ERIKA"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002065",
+                    "name": "CULTIVO DE TEJIDOS VEGETALES",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "MI",
+                                    "start": "1630",
+                                    "end": "1845",
+                                    "duration": 3,
+                                    "room": "608B",
+                                    "teacher": "AVILA ALBA MARTHA TERESA",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "VI",
+                                    "start": "1415",
+                                    "end": "1630",
+                                    "duration": 3,
+                                    "room": "609",
+                                    "teacher": "AVILA ALBA MARTHA TERESA",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "AVILA ALBA MARTHA TERESA"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002115",
+                    "name": "GESTION AMBIENTAL",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "JU",
+                                    "start": "815",
+                                    "end": "1030",
+                                    "duration": 3,
+                                    "room": "608",
+                                    "teacher": "ATAHUACHI BURGOS MARGOTH",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "SA",
+                                    "start": "815",
+                                    "end": "1030",
+                                    "duration": 3,
+                                    "room": "690A",
+                                    "teacher": "ATAHUACHI BURGOS MARGOTH",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "ATAHUACHI BURGOS MARGOTH"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "H",
+            "subjects": [
+                {
+                    "code": "2002001",
+                    "name": "SISTEMATICA DE AVES",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "MA",
+                                    "start": "1845",
+                                    "end": "2100",
+                                    "duration": 3,
+                                    "room": "608B",
+                                    "teacher": "BALDERRAMA TORRICO JOSE ANTONIO",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "JU",
+                                    "start": "1845",
+                                    "end": "2100",
+                                    "duration": 3,
+                                    "room": "608A",
+                                    "teacher": "BALDERRAMA TORRICO JOSE ANTONIO",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "BALDERRAMA TORRICO JOSE ANTONIO"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002003",
+                    "name": "FITOPATOLOGIA",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "MI",
+                                    "start": "1415",
+                                    "end": "1630",
+                                    "duration": 3,
+                                    "room": "608B",
+                                    "teacher": "ROJAS VALENCIA MAX ROLANDO",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "JU",
+                                    "start": "1415",
+                                    "end": "1630",
+                                    "duration": 3,
+                                    "room": "609",
+                                    "teacher": "ROJAS VALENCIA MAX ROLANDO",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "ROJAS VALENCIA MAX ROLANDO"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002029",
+                    "name": "LIMNOLOGIA",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "945",
+                                    "end": "1200",
+                                    "duration": 3,
+                                    "room": "609A",
+                                    "teacher": "GOITIA ARZE LESLIE EDGAR",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MI",
+                                    "start": "945",
+                                    "end": "1200",
+                                    "duration": 3,
+                                    "room": "608B",
+                                    "teacher": "GOITIA ARZE LESLIE EDGAR",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "GOITIA ARZE LESLIE EDGAR"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002030",
+                    "name": "MICOLOGIA I",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "MI",
+                                    "start": "730",
+                                    "end": "945",
+                                    "duration": 3,
+                                    "room": "609A",
+                                    "teacher": "ZAPATA SCHULTZE MARIA LOTTY",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "JU",
+                                    "start": "1415",
+                                    "end": "1630",
+                                    "duration": 3,
+                                    "room": "609A",
+                                    "teacher": "ZAPATA SCHULTZE MARIA LOTTY",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "ZAPATA SCHULTZE MARIA LOTTY"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002031",
+                    "name": "METODOLOGIA DE LA INVESTIGACION",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "MI",
+                                    "start": "1630",
+                                    "end": "1845",
+                                    "duration": 3,
+                                    "room": "608",
+                                    "teacher": "AVILA LARA ALFREDO",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "JU",
+                                    "start": "1800",
+                                    "end": "2015",
+                                    "duration": 3,
+                                    "room": "608",
+                                    "teacher": "AVILA LARA ALFREDO",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "AVILA LARA ALFREDO"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002032",
+                    "name": "EVOLUCION",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "1845",
+                                    "end": "2100",
+                                    "duration": 3,
+                                    "room": "608B",
+                                    "teacher": "HIDALGO SANCHEZ MARY ISABEL",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MI",
+                                    "start": "1845",
+                                    "end": "2100",
+                                    "duration": 3,
+                                    "room": "609A",
+                                    "teacher": "HIDALGO SANCHEZ MARY ISABEL",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "HIDALGO SANCHEZ MARY ISABEL"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002038",
+                    "name": "BIOESTADISTICA II",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "1630",
+                                    "end": "1845",
+                                    "duration": 3,
+                                    "room": "606",
+                                    "teacher": "PEREZ ZUBIETA JOSE CARLOS",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "VI",
+                                    "start": "1630",
+                                    "end": "1845",
+                                    "duration": 3,
+                                    "room": "609A",
+                                    "teacher": "PEREZ ZUBIETA JOSE CARLOS",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "PEREZ ZUBIETA JOSE CARLOS"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002043",
+                    "name": "CONSERVACION DE LA FAUNA SILVESTRE",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "MA",
+                                    "start": "945",
+                                    "end": "1200",
+                                    "duration": 3,
+                                    "room": "609A",
+                                    "teacher": "NAVARRO ANTEZANA FREDDY",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MI",
+                                    "start": "1545",
+                                    "end": "1800",
+                                    "duration": 3,
+                                    "room": "690A",
+                                    "teacher": "NAVARRO ANTEZANA FREDDY",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "NAVARRO ANTEZANA FREDDY"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002045",
+                    "name": "MICROBIOLOGIA DE AGUAS Y ALIMENTOS",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "945",
+                                    "end": "1200",
+                                    "duration": 3,
+                                    "room": "609",
+                                    "teacher": "IRIARTE PU¥A MERCEDES",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MA",
+                                    "start": "945",
+                                    "end": "1200",
+                                    "duration": 3,
+                                    "room": "609",
+                                    "teacher": "IRIARTE PU¥A MERCEDES",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "IRIARTE PU¥A MERCEDES"
+                        }
+                    ]
+                },
+                {
+                    "code": "2002059",
+                    "name": "GENETICA DE POBLACIONES",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "MA",
+                                    "start": "1415",
+                                    "end": "1630",
+                                    "duration": 3,
+                                    "room": "608",
+                                    "teacher": "AVILA LARA ALFREDO",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "JU",
+                                    "start": "1415",
+                                    "end": "1630",
+                                    "duration": 3,
+                                    "room": "608",
+                                    "teacher": "AVILA LARA ALFREDO",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "AVILA LARA ALFREDO"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "I",
+            "subjects": [
+                {
+                    "code": "2002035",
+                    "name": "BIOGEOGRAFIA",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "1630",
+                                    "end": "1845",
+                                    "duration": 3,
+                                    "room": "608B",
+                                    "teacher": "FERNANDEZ CALATAYUD MILTON",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MA",
+                                    "start": "1630",
+                                    "end": "1845",
+                                    "duration": 3,
+                                    "room": "608B",
+                                    "teacher": "FERNANDEZ CALATAYUD MILTON",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "FERNANDEZ CALATAYUD MILTON"
+                        }
+                    ]
+                },
+                {
+                    "code": "2016092",
+                    "name": "PLANIFICACION Y EVALUACION DE PROYECTOS",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "LU",
+                                    "start": "645",
+                                    "end": "815",
+                                    "duration": 2,
+                                    "room": "608B",
+                                    "teacher": "RODRIGUEZ OSTRIA JUAN CARLOS",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MA",
+                                    "start": "1245",
+                                    "end": "1415",
+                                    "duration": 2,
+                                    "room": "608B",
+                                    "teacher": "RODRIGUEZ OSTRIA JUAN CARLOS",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "MI",
+                                    "start": "2015",
+                                    "end": "2145",
+                                    "duration": 2,
+                                    "room": "608B",
+                                    "teacher": "RODRIGUEZ OSTRIA JUAN CARLOS",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "RODRIGUEZ OSTRIA JUAN CARLOS"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "J",
+            "subjects": [
+                {
+                    "code": "2002034",
+                    "name": "TESIS",
+                    "groups": [
+                        {
+                            "code": "1",
+                            "schedule": [
+                                {
+                                    "day": "MA",
+                                    "start": "815",
+                                    "end": "945",
+                                    "duration": 2,
+                                    "room": "GABI",
+                                    "teacher": "RUIZ BETANCOURT OLGA",
+                                    "isClass": true
+                                },
+                                {
+                                    "day": "JU",
+                                    "start": "815",
+                                    "end": "945",
+                                    "duration": 2,
+                                    "room": "608B",
+                                    "teacher": "RUIZ BETANCOURT OLGA",
+                                    "isClass": true
+                                }
+                            ],
+                            "teacher": "RUIZ BETANCOURT OLGA"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
